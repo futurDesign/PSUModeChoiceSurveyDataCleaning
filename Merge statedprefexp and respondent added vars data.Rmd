@@ -1,0 +1,41 @@
+---
+title: "Merge statedprefexp and respondent added vars data"
+author: "Mike McQueen"
+date: "3/26/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r load packages}
+
+#Load Packages
+library(tidyverse)
+library(haven)
+library(labelled)
+library(sjlabelled)
+library(sjmisc)
+library(dplyr)
+
+```
+
+``` {r Load files}
+
+#SPSS output directory
+
+resp <- read_spss("C:/Users/Mike/Google Drive/Thesis/SPSS/exports/added_vars_respondent_clean_032320.sav")
+experiment <- read_spss("cleandata/statedprefexp_clean_032320.sav")
+
+```
+
+``` {r join files}
+d <- experiment %>% 
+  left_join(resp, by = "ResponseId")
+
+```
+
+``` {r write new file}
+write_spss(d, "cleandata/joined_statedprefexp_clean_032320.sav")
+```

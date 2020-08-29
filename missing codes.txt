@@ -1,0 +1,4 @@
+-1 Appropriate skip
+-7 Refused
+-8 Don't know
+-9 Not ascertained

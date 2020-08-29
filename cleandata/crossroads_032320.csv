@@ -1,0 +1,1868 @@
+"","ResponseId","Q71","Q7_4"
+"1","R_22o7YIBScQxi8xl","SE Stark and SE 162rd",12
+"2","R_2PyXe9kpHduoz9A","39th and Hawthorne",3
+"3","R_DvrXRfc1KP8zGrT","SE Flavel Dr. and SE Harney Dr.",7
+"4","R_6gvSx549USnJOEN","SW Broadway and 10th",1
+"5","R_dpuBKp5jnXuhG6t","NE Wilkins St and NE John Olsen Ave",-7
+"6","R_214FTi8siJlDICB","Laurel Rd and Bald Peak Rd",23
+"7","R_AL1wi0QshknTXW1","Bethany and Laidlaw",18
+"8","R_OvSVleREL3NXP0d","SW College and Fifth",0
+"9","R_1rOiXeqIQNFzVBy","SW Farmington & Murray",10
+"10","R_56de9K9CxT22XBv","I live outside of Portland",25
+"11","R_b7XzcTByOczyxAl","Park Ave & Montgomery",0
+"12","R_2Pt9YQZGPEjfONB","SE Powell and 52nd",7
+"13","R_BtZD6GVRsMoOShb","N ROSA PARKS AND CURTIS AVE",6
+"14","R_3G1b0krIalmVp38","SW Millikan and SW Murray",11
+"15","R_1dcvCOuV1CkqW4J","NE Glisan and NE 75th",5
+"16","R_3DkmwwCtltCvdka","170th and Bany",13
+"17","R_yHZ5JQG1sap4Rgd","SW Broadway",2
+"18","R_A6TspML8ewGJfz3","i205",25
+"19","R_eJw2UJosWwhGVyh","99E in Canby",-7
+"20","R_1psUJoF52LvBzuV","SW broadway",0
+"21","R_10IWiXMJQ5U1vYW","174th Ave. and Divison St.",12
+"22","R_3fDg3zCDBBE4b4b","11th & Overton",5
+"23","R_3g5ag5Yy2zmEe2K","122nd St",30
+"24","R_2dY2eOenYnmfIDK","SE Belmont and 11th",3
+"25","R_25tDwXnCawrCSTh","13th and Montgomery",0
+"26","R_2YhOKcwQEAetJN8","River Rd",25
+"27","R_2cors0g40E5tT6w","SW Capital and SW Taylor’s Ferry",6
+"28","R_2f26cRIrPnYR5NI","Broadway and 21st",2
+"29","R_A0DQgfY976HhrKV","Happy valley",23
+"30","R_6xmPzhUrk20Xvr3","5th & Jackson",1
+"31","R_1mFcTfdwA3KoZoq","Sexton Mountain and Nova",15
+"32","R_e36zdWWkXI3k8et","Hillsboro",18
+"33","R_eOJlzHIvQ7HNnyh","Burnside and Division",12
+"34","R_3Pvre6FcV2z0HnE","Holcomb and oaktree Oregon city",20
+"35","R_29caVYKhAQHpZhg","Sw market and sw park",0
+"36","R_6Mg2Rz9vH6jruJX","Sw 6th and jackson",0
+"37","R_2EbKY7RkVbH1LXg","SW Broadway",0
+"38","R_PMs7gMMc6byRIWt","none, i live in salem",30
+"39","R_2VEz8KgLQzPYkta","SW Burlingame",12
+"40","R_3Jxe3wF8ZXqYkUm","SE 13th and SE Tacoma",5
+"41","R_1NqwLBrkb6STbtD","NW Cornell and NW Murray",8
+"42","R_sjnViyGTsbQgpG1","SW Clay",20
+"43","R_2UimcSPpgG2oWj0","N Michigan and Rosa Parks",7
+"44","R_yI85V6ACMtxMNIl","20th and Jefferson",2
+"45","R_1j9D7xWBYpZgDyL","SW Park and SW Market",0
+"46","R_Zn3MaGW2txvHQop","clay",5
+"47","R_1mx9ikqrzWSOYue","Broadway",2
+"48","R_CmC2Y20ylFjvofn","170th and Farmington Rd",8
+"49","R_oYPQMiiXadHUcox","Canby, OR",25
+"50","R_pmhBSWeQBjYoaPf","SE Belmont and SE 20th",4
+"51","R_3s4WrcPRyZ694Wz","Tigard",12
+"52","R_3g7Vm357lk0kP9S","Sw 170th and baseline",10
+"53","R_ZaZwToI3QSa0Xlf","NW 21st and Johnson St.",2
+"54","R_1OD21dsqDMLcKcq","Clay st",3
+"55","R_5mpsYCyfWjbpwqt","NE 52nd Ave and Sandy Blvd",-7
+"56","R_yVj75sWXSokkZk5","SE powell",6
+"57","R_1rP6yRpTKNYSWYl","Tv highway",30
+"58","R_3qVQZ5003xucA5b","V st",15
+"59","R_Wfxw5Ww4cEQ2obT","Cornelius pass and baseline",23
+"60","R_2Pu5BTy8ZUQbuNV","SE 9th and SE Tacoma",10
+"61","R_3CTmcxNixP2Qike","36th and Tacoma Ave",21
+"62","R_32Y0rRsOi6pqPeo","sw 9th ave and sw Gibbs st",3
+"63","R_2vkuvOAofnHiDPA","Holgate and 97th",16
+"64","R_71wO7QAMLsenkrL","Bangy Rd. & Bonita Rd.",5
+"65","R_27V85Pc656C65wP","6th and College St",0
+"66","R_a5a5j5vLRCZpIfn","Broadway and Jackson",0
+"67","R_1NwrK1Lh0GMcj9j","2nd ave and Grand st",29
+"68","R_3CPjiumYhK5wpBG","122nd",-7
+"69","R_1Cea4c6yMd6g7Br","Sandy and 118th",10
+"70","R_24vmmwfZnzEKYQu","N Simpson",15
+"71","R_pxxqLSIaWZ15UZ3","Sw 6th",0
+"72","R_ykkCGZ4DyKkQ7a9","Jackson School and Estate",20
+"73","R_1qU267nKrw6hV5m","Harrison and 42nd",10
+"74","R_ODOKOowJZCNeq5P","NE 22nd and NE Knott St",5
+"75","R_RVmRWuKAfVSw7hT","Way outside of the Portland Metro Area",23
+"76","R_0k1nq1CowbfJxw5","SW 6th Ave",0
+"77","R_2f7Ym0Ovbp2OGgR","nw miller and nw kent",12
+"78","R_231qK9BCuQyjS8x","SW 6th and College St",0
+"79","R_31XYeQCqSFFAsz5","SE Cesar Chavez and SE Powell",4
+"80","R_0eVxkmWaQHLrcPL","SW Park and SW Mill",0
+"81","R_3Op0S6RmrkSHYvm","SW Broadway",0
+"82","R_3nxzTf1ghgEBt2D","se park and mchloughlin",8
+"83","R_D6tZ5AcNujMibG9","SW Beaverton Hillsdale Hwy and jamieson Street",10
+"84","R_XHaI0zb251zeAsV","Rosa Parks and Interstate",10
+"85","R_pMcTKmGh9FOWMEh","33rd and Sandy",2
+"86","R_32QK9SBAIGycA1e","5th and Broadway",0
+"87","R_1EjjvkhfnF5Mvdt","SW park and Montgomery",0
+"88","R_2BgoIMIynUyMoKd","82nd and Duke",6
+"89","R_2R8JZD8FADLtdec","Sw Farmington and hocken",8
+"90","R_5puayopD53L65WN","Cornelius pass rd, Beaverton",25
+"91","R_2th4pfsyhT2rhzM","SW Broadway and 5th",1
+"92","R_3OcqjoqDJ4cZ146","Milwaukie and Powell",2
+"93","R_wLirApLDtT2cgY9","Willamette Drive and Dillow",10
+"94","R_3shVAijnkW1ECNN","N Mississippi",10
+"95","R_PIo5gsT3yxViidz","I don't live in Portland. A nearby intersection would be Burnside and Eastman Parkway.",20
+"96","R_x0pRrwPexVQoQgx","burnside and 23rd",5
+"97","R_1lc4Q21fZcUUsb8","NW Schmidt Way and NW Avondale Dr",11
+"98","R_3kEXvHTTNqSvBWm","185th tv hwy",23
+"99","R_240dKwk9EuYp1yy","Beaverton Hillsdale hw and Jamison st",7
+"100","R_2S1T8lylLJNJPgu","Tv higheay",22
+"101","R_1lbosaQ4fFMWYev","SE 72nd & SW Flavel",7
+"102","R_RVW0FnCMV3S5XH3","Bethany and Westunion",21
+"103","R_2aERtrzDjodTDTe","SW Broadway",0
+"104","R_2wN2aEMwiOXmXIc","Lombard and Jordan",-7
+"105","R_22A05qDOTTHR60q","NE 82nd & Fremont",10
+"106","R_XBA0HZJpu6s6wJX","park ave and McLaughlin",23
+"107","R_1LYWkx7W49e4r3P","122nd and Holgate",13
+"108","R_1BWKuWEDrVTawgM","Jackson and broadway",0
+"109","R_2a8gXZMsbNf1BWI","N Charleston and N Lombard",9
+"110","R_2DY3bmBcColI76y","SE Park and SE McLoughlin",8
+"111","R_2s7QOqdUFYJSstv","NW Barnes Rd",8
+"112","R_A0DarnZc2Dac12h","Gresham station",-7
+"113","R_23NeUkWdRgyIxmp","Division and 82nd",6
+"114","R_6sNYbl7eKdXHZ5f","Goose hollow",-7
+"115","R_xzwc0vSpVkMqqaJ","SW Capitol and 26th",6
+"116","R_8BLtR37964DLmrn","None",30
+"117","R_1NzG4mPNHxPFjl7","Se 116th and se holgate",9
+"118","R_3rTa4gx3zWAwQjS","psu",0
+"119","R_11d3HXUC18DNHsY","Civic drive",13
+"120","R_2rkjE5QW26nB6ea","Hawthorne",2
+"121","R_6xMNT2ERlM79VzH","SW Clay and SW Park",1
+"122","R_1DTlzs4OeMNrtEd","Canyon and Camelot",5
+"123","R_2rJzHB1cRwykyyi","13th and Tacoma St.",3
+"124","R_2tbxN06nP1CBkav","Se holgate and se 33rd",4
+"125","R_3KZpRNxci7PeN4U","Sw Hall Blvd",10
+"126","R_3oyHSBQwAzh7N2g","NE Division and 181st Ave",15
+"127","R_cUE9YKzZ1OthGJr","Park and Market",0
+"128","R_2VeC2PcNGJSrFQf","42nd and Killingsworth",7
+"129","R_290okauLh1qC9iU","Se Belmont & Se Cesar E Chavez Blvd",7
+"130","R_3Mo2gJzFJ3X2xZi","NW 185th and West Union",10
+"131","R_1eyKlMx2GsruKEI","holgate and 112th",10
+"132","R_3lAkDUNs8OLmZ99","SW 12th and SW Montgomery",0
+"133","R_1imoTXr8dnF5tKK","Don't know honestly.",7
+"134","R_3qBXDZy2xGKtSpz","SW Gibbs and SW Corbett",3
+"135","R_1jpp0nib2LFThTN","72 and foster",8
+"136","R_UXFtIcyjZk9dsvn","NE Brookwood Way and NE Evergreen Pkwy",20
+"137","R_27KjInuRvcJ6jDt","NE 17th Ave and SW Sunrise",18
+"138","R_3KK4sUDEYfUk1e5","Foster & Holgate",5
+"139","R_2ZHy87HoRYkRfF3","Powell and 39",4
+"140","R_3G7BJsvm5BCyCkt","NE 14th and E Burnside",5
+"141","R_22zselyJ2xX50LT","holgate blvd",15
+"142","R_28J8fWCFlnJUs8J","Laidlaw and Bethany blvd.",15
+"143","R_1ML30OiunI5jKjP","SW 17th Ave and SW Clay St",1
+"144","R_1eY1UYwmlLM3hc1","SW Hall Blvd and Scholls Ferry Rd",-7
+"145","R_3L14qpx7FR4kE90","Walnut and 99 Hwy",10
+"146","R_2fKl5E3806Cmc56","SW Hall Blvd and SW Scholls Ferry Rd",10
+"147","R_2XaqV4N46xLz3Nx","SW Montgomery and 12th",0
+"148","R_2DUe9mkNxRWJfCx","Sw Hall and SW Washington",13
+"149","R_Y086P7qggJF7qyl","SW Clay and SW Park",1
+"150","R_1ePjvTwRmuqm1yd","Lombard and MLK",6
+"151","R_2sbhXQenqt5VVjU","Murray and Cornell",10
+"152","R_yvz1QH35qglSdQ5","Broadway and Williams",4
+"153","R_1E3U15YEyFOPpVO","King road",21
+"154","R_2E0DI0RbwGPKVd0","SE 130th and Division",14
+"155","R_3oMXzmup5uw2gZZ","SE Bybee and 82nd",16
+"156","R_3MzzpIqiY82yY1L","Milwaukie and Holgate",3
+"157","R_6z0Kj58QFYr4Ydb","E 102nd Ave and E Burnside St",15
+"158","R_sI12QaZwlbvnadb","10th and Jefferson",1
+"159","R_aWvIRpnFPDdHP7r","NW Saltzman & Thompson",8
+"160","R_3iVTJiasEWk86k7","NW Lovejoy and NW23rd",3
+"161","R_1mt7A4UKJDZuyVg","SE Clackamas Rd and SE Johnson Rd",11
+"162","R_1F8IshmtdhXEZIQ","NW 185th and SW Sandra LN (Aloha)",13
+"163","R_22o8l7s5h5nfQOL","Burnside and Nw macLeay",3
+"164","R_2zitiA0GvQ0BaIO","SE 17th and SE Rex",5
+"165","R_2EAmeWlss57pEQJ","Blankenship & Virginia",15
+"166","R_2TsYw0FIgQg2lc3","SE 72nd and Luther Rd.",13
+"167","R_AFGRttMMf38nEDT","SW Beaverton Hillsdale highway and Laurelwood",4
+"168","R_3JeogSgWbeQGw6K","SW Jackson and SW 6th",0
+"169","R_2nUNQ2XSMv6SDVT","Garden home and oleson",10
+"170","R_umgdw9KXyHWHAJj"," Carmen and seville",20
+"171","R_2fva18SgUzeKzzB","N Wall Ave & N Lombard St.",9
+"172","R_yWUCWopah1WIdbP","5th and college",0
+"173","R_3QEm8LbjaKfpshI","SE Johnson Creek and 82nd",13
+"174","R_1F32EaDuKn3flCO","Jefferson",0
+"175","R_31SNXmRxcnxItGG","NW Belgrave and NW Thurman",4
+"176","R_1i4mL85tsQS2T2f","SE Powell and Division",2
+"177","R_6hhyFNlaNOQ7Knv","SW 5th and Sw College",1
+"178","R_2E4xau4yxUn3d6Z","sw Broadway and sw yamhill st",3
+"179","R_1EXMsWOe37jXLCb","SW Broadway",-7
+"180","R_24pBAPl7YyqPE7S","SE 39th and Powell",5
+"181","R_2aIVc2zPH2MrguI","Beaverton",17
+"182","R_UtZIJsIaHZa2277","SW 11th and SW Market",0
+"183","R_YcqIYxZBV745IIx","SW Hall Blvd and SW Durham Rd",10
+"184","R_25XR6jxf2EAZVSc","SW Broadway and SW Jackson St",0
+"185","R_3Ldokbn808NbrbP","Sw Montgomery and 12th",0
+"186","R_2Vr8hudm8h6ZXAm","Hawthorne and SE 27th Ave",3
+"187","R_2YLoKZASBbomN21","174th and Bronson",15
+"188","R_3nTN8x3ZHstBfUf","SW broadway and 6th Avenue",0
+"189","R_YW6VDaUD6jWlj6p","Sw Boones ferry and monroe pkwy",7
+"190","R_1JPc8cmBgcjE1Xu","Broadway and College",1
+"191","R_1IWTjkI32Y62Kkd","NE Rosa Parks and NE Vancouver",-7
+"192","R_1jUJqCv0gzkxyAQ","SW Mill St. and SW 11th Ave.",0
+"193","R_3gUHbX07zgZG1pD","Ne Fremont st and Ne 82nd",7
+"194","R_2Yc4XPoFXcpuNU3","SW Jackson",0
+"195","R_1ONVcewcq6l1Q2p","Sw 72nd Ave. and Sw Delaware Dr",13
+"196","R_RwcNCrmREv1L8S5","SW Vermont and SW Bertha",4
+"197","R_3Dwpnc39Eu01kHA","HWY 211 and S. Meridian Rd",30
+"198","R_NX7QbIwx0djaDFD","5th and college",0
+"199","R_1mrw8FnH0Gvr5WT","Powell and 82",8
+"200","R_24eFVrntbPSK8Va","Broadway and 6th",0
+"201","R_1rH3qg4cwyPBJHA","181st and Halsey",20
+"202","R_1FzaGddEUg6a7Wb","Wilsonville",20
+"203","R_3Ko2SdbhalM1Mm5","SE Holgate and 136th",-7
+"204","R_Xo0nmLqdOjC2MMx","Molalla Ave and Trails End Highway",24
+"205","R_023QyBh9kJB6Nrz","Live outside Portland metro area",15
+"206","R_1opZQWEW0ODWImG","Broadway",0
+"207","R_29diTCqwYuOAGYl","NE Halsey and NE 102nd",15
+"208","R_1IjDiAymuHm7sA1","Broadway and 30th",5
+"209","R_2dGDblcT7e6qUDQ","SE Powell and SE Holgate",12
+"210","R_41nGU2rePrRmIEh","SW 6th Ave and College st",0
+"211","R_XZ02kcvsjzKb4Ln","SE 47th Ave and Holgate St.",6
+"212","R_wRkpPul5YijDXX3","Scholls ferry road and Roy Rogers blvd",13
+"213","R_2AFgVlD8AUHGffu","60th and glisan",-7
+"214","R_3fVvv06iRb97aZS","Couch and Burnside",2
+"215","R_6SGtwQNQRHEBoR3","SW Canyon Ln and Sw Valley View Dr",5
+"216","R_3siv0HshYqjU9jU","Clay and 12th",1
+"217","R_Og4llzyVBmcTmxj","Pioneer St and I-5",21
+"218","R_3G0NSGnuWDkulfQ","Park ave and Mcloughlin",10
+"219","R_1kH3FC7LP68Q6Bw","NE Fremont St and NE Martin Luther King Jr Blvd",10
+"220","R_3lGHcXSZqvCZY4L","sw broadway and sw jackson st",0
+"221","R_3dLNaiKJhlribVy","Tracy and Currin",30
+"222","R_9NtopbZWBmnK081","E Burnside & Sandy",3
+"223","R_56CBicq6SlEnhPH","SW capital hwy and 35th",7
+"224","R_3r2rh0QJMEQjkYX","SW Allen and Murray",22
+"225","R_1n1G6Mmjd0ONS0b","NE Glisan and 99th",20
+"226","R_3OrDqVsCvf9XLYK","Sw 10th and SW Clifton",0
+"227","R_1q4kB38mAh8xzik","Laidlaw",8
+"228","R_27rtxRnVwDa6d5s","NE 33rd Ave and Prescott",4
+"229","R_3r0yPAIVd1XGkNK","SE Stanley and SE Monroe",10
+"230","R_3nCT7VlxHnTGl0t","5th and G St",30
+"231","R_yJBcSzuk6ku34iZ","Salmon Creek Vancouver",-7
+"232","R_1DzZAOsfb2wKD2n","T.V Hwy and 185th",-7
+"233","R_AtBKreFsZHBc4mZ","Woodside Cir. and Deerbrush Ave.",8
+"234","R_1KqcXPvv62XHnwE","Guarded home and SW 26th way",4
+"235","R_wY5G7Q5gPCi7iKt"," 82nd and division",10
+"236","R_1l0NhI5BDIQWWEg","SW 6th and Hall",0
+"237","R_22JudbreotFWtZQ","SW Broadway and Jackson",0
+"238","R_ZrvBA8LkdOb9T4R","Century blvd",-7
+"239","R_21d3SAyvnrMZ0lB","Norkenzie Ave and Crescent Ave",-1
+"240","R_1JQuCZCxUCDqxvU","Tracy Pl. and Mistletoe Drive",11
+"241","R_2XdnOFQqV3L6Hkf","Elm St and 16th Ave",-7
+"242","R_2SlvxantiE0zx3t","SW 195th Ave & SW Farmington",19
+"243","R_3qUxDFrzTgIrSPQ","SW 5th and College",0
+"244","R_xAErNe00SCs48F3","NE 102nd and NE Halsey",10
+"245","R_1livjNle4uLAVwA","6th and Jackson",30
+"246","R_3QQor6WZReIwFa8","Jefferson and Columbia",1
+"247","R_1IQxiJORICFbEBW","Interstate Ave & Rosa Parks Way",6
+"248","R_3h3yySQH90tq5hE","SW 124th Ave and SW Pacific Hwy",13
+"249","R_wYMYvhxBUb2LNg5","sw broadway and madison",10
+"250","R_3rGLLhxDnmyw8QJ","SW College St and SW 5th Ave",0
+"251","R_2AF30tUXOpcRQmn","SW 6th & Jackson",0
+"252","R_3RmSI0cJ0JTvsDi","Brookwood and TV hwy",17
+"253","R_2rYqI9e2xbEm4D9","SE 92nd and SE Stark St",7
+"254","R_1jK6UGXEeWyQek8","Canyon Road",28
+"255","R_2saSYPxvPdOyEnE","Murray & scholls",-7
+"256","R_25A7NfrIcncZ0Hr","se Holgate blvd",20
+"257","R_3jTc1MhBLrHKIAT","PSU Dorm (Blackstone)",0
+"258","R_22P58sdrUCbz4ZS","Murray Scholls",9
+"259","R_OkDKekFK5hdXUHf","Hwy 26 and Glencoe Road",20
+"260","R_3s0lvbQcItQ4A6y","SW 52nd at Garden Home",13
+"261","R_DpgnRDlzDE0eVA5","Cornelius Pass Road and Main st",12
+"262","R_1FtUHfPo7FsotEs","Burnside and 162ND ave",15
+"263","R_9ZVlf9NRhhGIHst","SE Woodstock and SE 52nd Ave",5
+"264","R_2Cwcdtk9kPzZh1M","SE Hawthorne and 34th",5
+"265","R_338d9hMQKOviYh1","SW 64th and Center",5
+"266","R_2e8Z6R3yFS6xhCB","Stark",14
+"267","R_TcGNYW06yzqDlYd","NW Barnes and NW Cornell",8
+"268","R_3fpkg6eHe0QeUtP","Burnside and 20th",4
+"269","R_2XcWeLXoBVhelUQ","SE Ceaser Chavez and SE Malden",6
+"270","R_1eQMVVRW6kOimtI","Jefferson",5
+"271","R_2DSU1dTuaWWyVCh","NE Cornell Rd",19
+"272","R_6gOUUHWJ8sQ9MnD","SE Mabel and Webster",15
+"273","R_yIsAeuAZHElyC1r","durham",12
+"274","R_22xFfuHBTH314xc","SE Division and 48th",4
+"275","R_TuxQRDYCxd0uB8Z","Eugene",-1
+"276","R_3O215IVKvmmZrnM","Sw Taylor and sw 15th",2
+"277","R_271lj7CsJplYUpE","SW lIncoln and 4th Avenue",0
+"278","R_3PEVqE9hKaDQA4j","NW 21st Ave. and Everett St.",2
+"279","R_24BMBE6rj9SR8Gn","Walker and murray",9
+"280","R_3sb8cYVmBygORDX","SW Park Ave and SW Jackson St",0
+"281","R_uyRSG37u0gP9VHX","Burnside and Hogan",20
+"282","R_2tgpFQ9jxk9WRKP","Westfield st",30
+"283","R_3HY1Omm6RRbmC23","I live in WA",-1
+"284","R_3PAjzxqE9oSwjik","82nd and Johnson’s creek",12
+"285","R_2amgKGPbZ5Vzvz0","NW 12th and northrup",3
+"286","R_117VVQtJWwRfyvU","SW Park and Mill",1
+"287","R_3yBULEgZF8OFOW5","NE Hogan and Division",20
+"288","R_24FWNA5kvusnPp7","Not in Portland/ would give away too much",25
+"289","R_RlYtWpXhDcmnxap","NE Glisan and NE Cesar E Chavez",4
+"290","R_0lhuTof65vW4HER","NW Thompson and NW Saltzman Rd",8
+"291","R_PU6wr175xdNc2HL","Sw 117th and Sw Canyon rd",7
+"292","R_31iT1kGGQ0oTzGm","32nd and Holgate",4
+"293","R_urK5bnSO30RKG8V","SW Broadway and SW Market",0
+"294","R_urIsrmriQuu50Pv","N Chataqua and N Willis",8
+"295","R_3e2WWqPtDXLmtup","NE MLK & NE Stanton",5
+"296","R_1F2GSs1fqAstPZn","42nd and Fremont",8
+"297","R_26ndh0iyAXO4dGX","Pacific Hwy and Tualatin Sherwood Rd",15
+"298","R_1QEg0BTQ6Irq7vV","10th and Montgomery",0
+"299","R_3IPIy0XHzWGKEZW","Montgomery and Clay",-1
+"300","R_2AXoGKpN4Ne8W8h","Mountain sun dr and 122nd",0
+"301","R_3hgtX2q6zXpzX6R","SW Broadway",0
+"302","R_Z2UL2Lftm6nA7fz","college & Park",0
+"303","R_2DP3vL24zveQi6S","11th and park",0
+"304","R_1N4TJsL9SQmcg2w","SW 185th and  SW TV Hwy",17
+"305","R_1jfEOj5rqco7Eh8","Skyline and fairview",3
+"306","R_cC6hkjixHTBjGff","107th and hillsboro highway",7
+"307","R_ehpKzFWl9jnkxrP","SW 40th and Multnomah",5
+"308","R_3GoIEQD8jGt3YHk","beaverton",15
+"309","R_248K8D2jNcmZA8s","185th ave and farmington",20
+"310","R_XMvXHpTRcE71xBf","SW Broadway and 5th Ave",0
+"311","R_23WxBxiqqzvSo7s","NE Fremont",11
+"312","R_2zwD6s9UBGHUYc8","NE John Olsen Rd and NW Cornell Rd",12
+"313","R_1hAXaO0I8zJdIXw","Yamhill and 181st",15
+"314","R_yjUbq48FSQtjodP","SE 72nd and SE Powell",7
+"315","R_23f0ZCVBFsGIxqR","NW 25th and Lovejoy",4
+"316","R_2dWMQjvz4NYz6dT","N Alberta St and N Vancouver Ave",4
+"317","R_241nIvKpALzVYo0","NE Prescott St. & NE 72nd Ave.",7
+"318","R_2Wxv4F8oNTk8IEo","Lake Oswego",-7
+"319","R_3lz5IHBBQoO1L1B","Brookwood and T.V highway",20
+"320","R_2xDJOjQCU1ExwuM","SE Milwaukee and SE Knight",4
+"321","R_24BsB4V8JFiSRV1","SW Broadway and SW Jackson St",0
+"322","R_C7hKtpCmbXSqKAh","NE 28th and E Burnside",5
+"323","R_31shOH7ANWjMG24","woodstock and 72nd",10
+"324","R_3mfOi2mfQRVrfAa","S Ridge Rd and Fishers Mill",30
+"325","R_3PiVawpkNHNQna2","Belmont and Caesar Chavez",5
+"326","R_xFt8wh0btpHM4HD","Clackamas Town Center",18
+"327","R_3JsD7hWeYPd3ZwL","82nd and Yamhill St",7
+"328","R_yrLPeJzRBQBDpE5","20th and Burnside",5
+"329","R_A6cyXX2I5ax8Nk5","sw park and sw clifton",2
+"330","R_3fxEX32qPWa8Vya","SE Powell and SE 21st",5
+"331","R_tDK8tp3yvZZeM93","Wilsonville rd",30
+"332","R_2OZTmsWXiVzyQUt","Hayden island drive & n Hayden bay dr",9
+"333","R_1F3v9eu5zBBNw8W","N/A",30
+"334","R_2TXGaKh4sUO4wBE","185th",20
+"335","R_27eTGqKvR1TeJWS","sw 16th and montgomery",1
+"336","R_25sYZX5rRx3XBF3","Woodstock and Caesar E Chavez",10
+"337","R_2YPSunu4kpvgOAp","SW 6th Ave and SW Hall St",0
+"338","R_31zoohEcVh4kxAC","Sw 5th and see college",4
+"339","R_31azRAN5DS8Ndn5","SW Scholls Ferry and SW Hall",10
+"340","R_1I46qjTaPnOhtS1","185th",18
+"341","R_2738twVdHSNDtzD","SE king and SE Stanley ave",10
+"342","R_1dNsXSNTOW74VXL","Sw5th and college",0
+"343","R_1jftRxpynQRuoIw","Nw Cornell and nw 143",10
+"344","R_bNwlfsr03lbMcNj","N. Lombard and Ida",6
+"345","R_0PMwExag7Cy4CbL","13th and Montgomery",0
+"346","R_29OTXNoX6HvwAq5","12th and SW Montgomery",0
+"347","R_A6QgQWcBxTTXjnr","E. Burnside & NE 172nd",14
+"348","R_3qIR0CtH55waBhZ","SW 198th Avenue and SW 185 Ave",12
+"349","R_1jJ6ZupjD74NVby","SE 52nd ave and SE Steele st",6
+"350","R_UFKeGWU7NrN3XBT","Barnes and Leahy",1
+"351","R_9Zzhjzq9nwhvJ9T","NE Halsey St and 7th",20
+"352","R_3GBQIbtGz0WQjLw","SW Broadway and SW yamhill",0
+"353","R_1pSTlaxBrvK4h5c","N interstate and N Prescott",5
+"354","R_2fx4waZKVPBoy9t","sw 19th dr and sunset blvd",5
+"355","R_bISF2GrYl3c45Zn","Halsey and ne 162nd st.",9
+"356","R_1PY7eOwLIzLNpOP","I dont really know",25
+"357","R_2OVJU0kmBr0fibH","Walker road",10
+"358","R_3PYV2eOZZw2LAQL","Oregon Coast- Tillamook County",30
+"359","R_210sqKgsHqpDE2K","SW 10th and SW Clifton",1
+"360","R_BJTseDjGomrS2lj","SW Barnes Rd and the 217",5
+"361","R_xrQ7m0Cm3IBIok9","25th and SE Belmont",3
+"362","R_3KJzNdq38QGhRUG","SW Broadway",0
+"363","R_vlE2cxnlLYbeJMt","NW Kaiser and Springville",-7
+"364","R_3Gcw4uVBvlCrmaK","macadam and nebraska",3
+"365","R_0PtpytMVHdpLu9j","Main st and pacific ave",21
+"366","R_3FUxPFE5LvcWlMV","Kathy st",25
+"367","R_2WDAMdB9D3J6F3I","Sunnyside Rd",15
+"368","R_2U3pCC8Hj11jkj3","SW Jamison Rd and SW Duncan Ln.",10
+"369","R_3GvbHyWnwOfnbfL","Barbur & 71st Ave",26
+"370","R_0dgTx8sVD9tSSdP","NE Martin Luther King Jr Ave & NE Weidler",3
+"371","R_3Mgni22Q8KP3EdB","SE Division",10
+"372","R_27etAGBV4C60vCg","122nd and powell",11
+"373","R_2gYFuowp1lM0W5P","SE 82nd and SE Foster",9
+"374","R_ZCTyIS6UeARfgKR","se Powell",9
+"375","R_1mOvCNiOC5eQtTr","NE Redspire Ln",18
+"376","R_3GrhDT9FTZbQjyR","ME MLK",5
+"377","R_3qD2B5y5LQeapcz","Saltzman",10
+"378","R_1o5dcgkeMhYDd3v","Orient Dr. & Powell",26
+"379","R_2zOYB0IRouvi7XN","South End Rd. and Warner Parrott Rd.",13
+"380","R_2y9I5tKU8JcinKH","SW Cedar Hills Blvd and SW Barnes Rd",13
+"381","R_3L07gbeMZScwMbS","NE Halsey and NE 162nd Ave",20
+"382","R_2bUK9ZupGDiW4dG","Civic drive",12
+"383","R_1qaEZou3P3p2j03","You already have this",25
+"384","R_10pcA3ytp53iRMM","Cesar Chavez and Belmont",6
+"385","R_vjL6ps3JIqPZRNT","Timber road amd highway 47",-1
+"386","R_AoGEMLlHM7eAl33","SE 12th Ave and E Burnside St",5
+"387","R_3GkBqbLO9Yx9g33","N Willis and N Peninsular Ave",10
+"388","R_qCJpL6Nneh5ayBj","SW Vermont St and SW Capitol Hwy",5
+"389","R_10pcrbcEydomGLT","NW 25th and Lovejoy",3
+"390","R_2tJwFO9WORg5VDJ","Hawthorne and 14th",2
+"391","R_1JK5vOfZx0u81qf","Hwy 30",30
+"392","R_bmbcPL3DZ0jPAqZ","SW Broadway and SW jackson ST",0
+"393","R_2Xnuh43aVGXammm","SE Holgate and SE Cezar E Charvet",23
+"394","R_0jRtFPxjrdUdJND","Yes",4
+"395","R_22WigpGBrnXB0J2","Ne 3rd Ave and NE Davis St",5
+"396","R_3JyCNH1CcxpidGs","S Magnolia and 10th",30
+"397","R_2dZsurh8r9UTJtO","12th and Mill",1
+"398","R_23fQbsF1ZaM7JR6","SE Kelso Road and SE Amisigger Road",26
+"399","R_1GBl2BYrHzWVGat","NW Wilshire Ln",15
+"400","R_27UyaaJOMnBM0uV","sunset transit center",8
+"401","R_3CK58BTsqG3E13b","Century and Cornell",20
+"402","R_2t3hvLorWfKsPVu","99W and SW Walnut Street",14
+"403","R_3J3CcaiJBOhJMuw","E. 9th Street and Federal",30
+"404","R_2wLyKDbwrXeMUWb","SW 74th and SW Taylors Ferry Rd",10
+"405","R_1QnM0Re4TqLLGl1","33rd ang Broadway",5
+"406","R_1g7Pgd0KRqiin3G","62nd and Beaverton-Hillsdale Hwy",4
+"407","R_8hQc6U0v4h36NKF","SE Hawthorne Blvd and SE 20th Ave",3
+"408","R_3fISjWoGAhjQbei","SW Macadam and SW Pendleton",2
+"409","R_2Ys9ynCBS2FiOmt","NW lovejoy and 23",3
+"410","R_8kKpN9oa18a5mGR","Sw Walker Rd and Sw Schendel Ave",10
+"411","R_2xG0GDA5C0qxRdJ","NE Halsey and 82nd",10
+"412","R_3CGUxO9RqsnlWqX","Sw Beaverton-Hillsdale & sw 78th",6
+"413","R_31MoF8AOQds1H6s","Hubbub",30
+"414","R_UoOUe7QeWd68g0N","NE 102nd ave and NE skidmore st",7
+"415","R_cGPqLxShQ8XV4Nr","SE 164th and SE 22nd in Vancouver",17
+"416","R_1Ed2EBC0gGfjHXR","5th and Harrison",0
+"417","R_2YaZOuYdxTU9DQg","SW 6th and SW Hall",0
+"418","R_3iFpu4drXzIyftv","NE 163rd AVE and Jenkins Rd",10
+"419","R_3qQ2wkbgICek9fH","Walnut & queen (Albany)",-1
+"420","R_1QLSF3lVbelowj1","SW 5th and SW College",0
+"421","R_3irvpl2sfOKFqng","NE 33rd Ave and NE Alberta St.",6
+"422","R_1PddOCm7r0XVurO","SE 53rd and Division",7
+"423","R_2Yb1rhyHRQEe7ah","Mollala and Gaffney Lane",18
+"424","R_24MD5wctvE31zLL","SW Park Ave and SW Clay St",0
+"425","R_2S5Z84nuX1Thpub","SE 162nd and Stark",-7
+"426","R_3Douvq4CeROkwQT","limbord",19
+"427","R_1laeynqVnRwF9vJ","NE 15th and Dekum",7
+"428","R_1Egud41kYY9TrJd","SW Murray and SW Jenkins",8
+"429","R_3ik9VckVqpgdnFL","TV Highway and 198th Avenue",13
+"430","R_DJgvLJ0gAoeJ8EF","Alberta and NE 7th",5
+"431","R_2uWDWpRiwYdlGA2","Drake and Century",10
+"432","R_2uP5nPEWnL1kZse","SE Broadway and Cesar Chavez",10
+"433","R_29aWNXdwZM2KDRY","NE Davis & MLK",20
+"434","R_2uPS8kdDC0yWbEn","SW Park and Mill",0
+"435","R_3L6WqHfqNgsfZ8G","SW 5th Ave",0
+"436","R_1Kp35U8YHBpGmkv","SW Broadway",0
+"437","R_rrM5tp7U3SwdYNb","Sw college station",1
+"438","R_3gRfnStvo689e7M","SW 5th and SW Harrison",-1
+"439","R_3OdC0AnNLf9JEZA","SE King Rd",7
+"440","R_1mftJRJKIxeoySr","N. Lombard and Denver",-7
+"441","R_2b1wK73yKHsmxgi","Fairview Drive and Burnside",17
+"442","R_22zsXsJeJ21tO80","E Burnside and Grand Ave.",3
+"443","R_1GGYHaF4nL8evFn","Sw tole eastman parkway",16
+"444","R_u4aRUMqM9XTJLQR","Barbie Blvd. and Hamilton",2
+"445","R_1OTRtf5GwqjRasZ","Interstate and Skidmore",4
+"446","R_2samKQoCV4CLuy0","SW Hall Blvd and SW Allen Blvd",9
+"447","R_1o0bXo8OU5wLHFc","Hwy 4 and I-5",30
+"448","R_24BJKGGGgAmBbHL","None",-1
+"449","R_bIbcDVoR48gaKv7","Sw Murray Blvd and SW Scholls ferry rd",9
+"450","R_5bsasq2qEbJTKFj","SE Milwaukie and SE Bybee",4
+"451","R_1CBFTgTvVRAsWfN","Broadway and Jackson",0
+"452","R_2rHClJRmg7KZ32E","SE Hawthorne and SE 20th Ave",2
+"453","R_3iHXJuxZKb3kIFa","122nd and Division",15
+"454","R_vTE29jV2r6F0dYB","N Prescott",10
+"455","R_2XhrZvnFHH8awIA","Capitol and sunset",5
+"456","R_u1YOyOQVPo9X4uB","Se Morrison and 26th",5
+"457","R_tXrMsLOKel9G98Z","Sw Broadway",1
+"458","R_3PnSP6kXHHv0505","SW Broadway and yamhill",12
+"459","R_6qWv9QnNGVEkXbr","Center St and 124th St - Beaverton, OR 97005",15
+"460","R_2YR0Wol4MPKKmyQ","Broadway and College St.",0
+"461","R_zVvVGWc5fbxBvd7","SW 13 and SW Burnside",1
+"462","R_2thbNYgtSnbxWO4","24th and knot st",5
+"463","R_1r7zClOl2ci6Krm","NE 82nd and NE 87th",7
+"464","R_SSMZpzmfKcwyD5L","SE Woodstock and SE 62nd",-1
+"465","R_6hs4CxXd3xNHuxz","NW Cornell & Saltzmann",7
+"466","R_3shU2fsjDOoWs2Y","NE Nelly Street",26
+"467","R_1hKFW95XtfniiLj","Burnside, Cleveland",21
+"468","R_eQgLq9AYPiXdW37","Broadway and 15th",4
+"469","R_2wRFT33sMydX3Eq","SE 30th & Belmont",5
+"470","R_1dBafZebbRbW9TI","NW Springville Rd and  and NW Joss Ave",12
+"471","R_xuyReW36O5SSPcJ","Sw 160 and se weir",15
+"472","R_wN0djHVIbqg5nYR","Sw 6th and College",1
+"473","R_338bH3VeCiZsbi7","N Williams and Buffalo.",6
+"474","R_1mqmdzvi2RcPfVW","Idk",0
+"475","R_3CE3GUZ8q8BSQg0","Chautaugua & Willis",10
+"476","R_T1lXDHnAdSqk0Nj","Sw garden Home & SW 42nd",8
+"477","R_z8CmRWr2wSYSIil","Holgate",30
+"478","R_XGTMlMDXbdvEojD","SE 68th and SE Flavel",8
+"479","R_1NsuF2cCjTC7Xf8","NE 15th Ave and NE Broadway St",5
+"480","R_2yfmZe72e91AZnQ","SW Martinazzi",12
+"481","R_2OVmmXYAOqSLdq7","Broadway and Jackson",2
+"482","R_3CHkBdpsORZPeis","HWY 101",30
+"483","R_269eUzLZQIsTtQD","35th and Vermont",8
+"484","R_1kLIkDD2hoJSodr","SW 18th and Jefferson",1
+"485","R_1lv2o01tHBBmTxW","Martinazzi and Sagert",15
+"486","R_3rMsEo3XF8Z0fwi","Powell and 136th",7
+"487","R_2ttenPLZCFEzzKq","SW 6th and College",0
+"488","R_1gFT4ul9NhmQWAP","Sellers rd and highway 26",20
+"489","R_eo1vP9h23NhegRr","SE 28th and Holgate",4
+"490","R_2zwIB7SjSIuUhU9","SW Houston Dr and SW Edy Rd",15
+"491","R_1gknZxVrGZQSfMt","Nw 185th street & Walker Road",15
+"492","R_22Qww2zVavx58UE","SW Jackson St.",1
+"493","R_UtqAJWWCISqf8sx","Burnside and Powell Blvd",20
+"494","R_123F9xEqe7pltVv","Scholls ferry and murray",-1
+"495","R_7VEKdgVXT1V2A5b"," College and SW 5th",0
+"496","R_RJlskVEqYvd4iT7","NE Couch and 188th",14
+"497","R_1NFewsdtaYn66eo","holgate and 122nd",20
+"498","R_WBTG4ogYJvKjvX3","Mollala",25
+"499","R_8r0lYGnLjYIjRzX","Bonita and Hall",12
+"500","R_OjTa6l3af6E3Gut","Rosa Road and Farmington, Aloha",10
+"501","R_0ibs12Vrhjduzvz","skyline and skyline heights",9
+"502","R_2dEZ6J157UL88JR","SW college st and 5th ave",2
+"503","R_xnHQ5jM9ZlPXJy9","SW Yamhill",2
+"504","R_2wHqRa9ZmTLYz17","NE Prescott Dr. and NE 131st. Pl",-7
+"505","R_12tohM99ro10zJD","Prescott and NE 66th",8
+"506","R_32LR4OYcZtQ4gJY","E 148th Ave",12
+"507","R_2v8uD00GTk1lorJ","hwy 95",30
+"508","R_1i5lfmbilys1E78","Sw Slavin and sw Corbett",5
+"509","R_2zIvOD4ssTCQSJp","Jackson and 6th",0
+"510","R_12Mbt78ojOSIbfL","N Smith St and N Charleston St",7
+"511","R_3maXNci35pjiuaM","Greenburg and Locust st",17
+"512","R_1DoRTp6oHZBBvYg","99W and 72nd",10
+"513","R_1CqIkzqJjGubf4k","SE Apple and 3rd St.",30
+"514","R_2xRE8tpjmTb55X4","Se duke",0
+"515","R_3dWkDEqMVhzxABP","SE Holgate & Cesar Chavez",5
+"516","R_1InnymPSFWdMYxu","NE 15th and Alberta",5
+"517","R_27dkTztWGbpGxCY","SE Duke and SE 60th",7
+"518","R_1l47obtDKpyHLCe","SW Jackson",0
+"519","R_2EEPmYESqb6py37","Cornell and 25th",23
+"520","R_1kU10a361ugUpfi","Beaverton TC",9
+"521","R_PLldQ7WXH1SwsiB","Evans Street and 11th Street (McMinnville)",30
+"522","R_1gvedaYIhGdglSV","SE Hawthorne and 30th",3
+"523","R_2tfiJjDEhhmP43T","Quatama and Cornelius Pass",20
+"524","R_22DDMkdXjV0QnsY","SE 33th Ave and SE Steele St",4
+"525","R_2EfQaeUsD9rGHkq","60th alberta",-7
+"526","R_e3dQ4X3axiZYHsd","Havlik Dr and Hwy 30",25
+"527","R_1nQ1i5eFVhVKX96","1-5 live in woodburn",25
+"528","R_2YaKZCfqMkhCs7s","SE 94th Ave & Duke St",10
+"529","R_2ROnPMgTMdzv352","SW Market St.",1
+"530","R_1LiNuPS79Hk745q","SW 12th St & SW Montgomery St",0
+"531","R_1OTW4VCLurAKb5v","Se Harold st",23
+"532","R_3kzX76s7Tix5jH8","Cornell and Barnes, Cedar Mill",-1
+"533","R_2asjKTQFvx7dCzy","SW schools and walnut",10
+"534","R_1HouxbL923NU8G7","cully and albert",15
+"535","R_27WljIEzEJwIqBr","Vancouver and Marine Drive",9
+"536","R_1IRvd3pkM7hakbU","NW Raleigh ST and NW 14th Ave",2
+"537","R_3e5qLDr5GFZV0uU","SW Vlahos Dr and Canyon Creek Rd",23
+"538","R_3RjzqhbyPrNZnZ5","Willamette Drive, I-205",10
+"539","R_2rMZWqZyw5Kb9QQ","SW 153 and Millikan",15
+"540","R_2cngnxL8oj2yafA","NW Barnes",10
+"541","R_3MyBmNrORCo5PZ3","11th and Jefferson",1
+"542","R_22Xq10Os5dMefzI","SE Belmont St and SE 12th Ave",3
+"543","R_pp0eY1pTxKQEoxj","185th tv hwy",-7
+"544","R_3ERomeN5ACnqGH3","NW 23rd & Vaughn",2
+"545","R_120cZ6onl0aHvxs","SE 82nd Ave. and SE Stark St.",9
+"546","R_3oA59RsVzKBVj6N","60th & Holgate",18
+"547","R_1Ihl9Iq10CuP64j","SE Division and 64th Ave",6
+"548","R_3e1PLBdrcI7cqoR","NE Alder and NE Century",18
+"549","R_3ma5VDd4EmMBtc9","The moon",-7
+"550","R_3oYKxt9K9Yy3jzN","SW Broadway",0
+"551","R_1dal2iU8sY5kZES","Sw Broadway and Pioneer",6
+"552","R_2CE3Qa19Vrg2WTc","SE Upper Aldercrest Drive and SE Aldercrest Road",10
+"553","R_qCOeVtrbXzNGgaB","SE Park Ave and SE McLoughlin Blvd",10
+"554","R_psZfY0G0w5Gbmmt","Ne 182nd ave & ne 169th st",30
+"555","R_1ON5ylze57WbUoS","5th and Broadway",1
+"556","R_2uKkdO7a38IgopE","Salem, Oregon",30
+"557","R_1dhKmrYwq8D85x6","Erickson and 5th",20
+"558","R_1nUAH0ajftxeoWI","SE 115 and SE Holgate",12
+"559","R_2YOYTza0KZp7qFF","N interstate and NE Skidmore",3
+"560","R_2VfiCCaAu5vyvO4","Sunnyside",15
+"561","R_UnZRKLXPtRlJrgt","80th and Taylor’s ferry",8
+"562","R_ZCACL1zJBkN4B2N","57th and Fremont",4
+"563","R_3iln9QgBMAqw95o","SE Gladstone and 52nd",7
+"564","R_1NmNRRjmBnE0Y9R","Burnside and Eastman Parkway",-1
+"565","R_3nuOZ5p7BM1w6bB","SE Mchloughlin",9
+"566","R_2tE70O1rEhkWhgK","Se Louden rd and E Larch Mountain rd",28
+"567","R_3rUvBw2yXZZin5M","SE 28th and SE Holgate",4
+"568","R_21jproVE98LZbhc","231st Ave and Alder St",14
+"569","R_1PZXIbh2bjvboUh","Macadam",5
+"570","R_1Ig5JypGD3FflWW","6th and college",0
+"571","R_3EoS12AbxrtfbVm","NE Sandy & 201",30
+"572","R_DoDGVvJjrdjeQWR","NE Broadway and NE Sandy",-7
+"573","R_1gbTok0VGEl02Yp","SW Broadway",0
+"574","R_1ghZFK1qk9bVynM","Flavel and 72nd",9
+"575","R_3GfcVkdxB7cM6vT","SW Broadway and SW 6th",-7
+"576","R_1QzODgBd6R0QKwZ","Powell",15
+"577","R_2TWPnzVDk6F1WOV","SW Montgomery and 12th",0
+"578","R_3OrmXScdWArnN0N","12th and Montgomery",0
+"579","R_TcPvSIJCbewdruF","Tv highway",30
+"580","R_Xul2phzdUtxbLtn","Sw 12th and sw clay",1
+"581","R_3NCDHdmazqPB51f","SE 26th and Holgate",3
+"582","R_32XZnj0cEGng8Id","Salmon & 14th",1
+"583","R_1Cq1v9DoeYj7kt6","SW Broadway",25
+"584","R_2l6qkrAHfjw3MZz","Barber",9
+"585","R_33qFYHkS2s29jiC","SW 10th",1
+"586","R_26haaDY0Ut069CL","SW Burnside and SW Vista",2
+"587","R_2QxRdROZYOrx5iS","135th and 212",12
+"588","R_tWofUgtFmEj5ukp","N/A (Aurora, OR)",23
+"589","R_273WjK0i2RserGV","se gladstone and se 136th ave",10
+"590","R_3EcL9sBZzwl2hJu","SW 133rd Terr and SW Shakespeare St",15
+"591","R_z1fvBMZWMNa7UOJ","Sw Kinnaman rd  & sw 185th Avenue",25
+"592","R_2YRDtYqs4r7bOAs","99 W and Bull mountain rd",8
+"593","R_31h32nsRzRoSnmQ","Fourth Plain and 162 ave",30
+"594","R_3HIgfugSw4T700N","Fargo St and N Vancouver Ave",3
+"595","R_1Csub8M0AhnHDYD","SW 185TH AVE and SW Tualatin Valley Highway",12
+"596","R_2TZyJPglxmFMWRz","NE Halsey and NE 47th",4
+"597","R_3lxEMAVp3q5DXMr","Sw montgomery",20
+"598","R_2X68eMQoIde91FE","Se cook ct",21
+"599","R_shgEDHfgbuocuk1","SE 28th & Burnside",5
+"600","R_3lK661JOo3Hxpt5","Highway 26 and185th",13
+"601","R_3GjKSjv3mqZ4a4U","SW Columbia",2
+"602","R_87VXiKdXOndrvR7","broadway and jackson",0
+"603","R_3IcTRjv8iPex7Jo","7th and wynooski",30
+"604","R_0TJSnBTpsIiGHZL","Market and park",0
+"605","R_3nB2VwekeUbMlmc","Barger in Eugene",30
+"606","R_31H3PGsHthViurK","Scholls and Murray",10
+"607","R_28RLbDRwtWFMLJm","97th Ave and Sunnybrook Blvd",17
+"608","R_1Ow4zw14kqu76oc","SW Celeste Lane & SW Cedar",7
+"609","R_RwvBHOzNfJ6viBH","Pacific Highway West and North Main Street (Newberg)",20
+"610","R_1HW1BWnjA6BWRyx","70th and Holgate",7
+"611","R_2fdF8arQzW7xpNW","Morrison & 17th",1
+"612","R_yCnowEUD9JkXhM5","Se division",10
+"613","R_3M6egs35jU58W7f","Nothing is near my home",23
+"614","R_20VbJfQbm8RE7B9","NE Cornelius Pass rd. And NE Evergreen Pkwy",13
+"615","R_Z9Ov5NpXciCngKB","NE Sandy and NE Arbor Crest Dr",15
+"616","R_3nSG3MH8hivHrZe","NW 21st and NW Glisan",2
+"617","R_11dx0XLWg923Gmt","Broadway and College",0
+"618","R_3iW6ovA1YHknjGz","SE 52nd and Division",5
+"619","R_AyNgL4RBQpwhSQF","SW 19th",2
+"620","R_1oq0Wcn8DvpSePr","Nw 185th and baseline",17
+"621","R_11ZXsDmTdTtAtqc","Tacoma",12
+"622","R_elnA79Q88Axjr4l","TV HWY and 198th Ave",13
+"623","R_1LYBPZAgnGn6uqi","Gateway NE Portland",12
+"624","R_1QMn5kviQetUpXs","NW Everett and 21st Street",1
+"625","R_21jFx3yhehMCp8e","102nd Ave./Halsey",8
+"626","R_1fezHC5Ppu0kAJQ","SW tiedeman ave",18
+"627","R_2q1pbmJpLotYMKU","Interstate and killingsworth",7
+"628","R_z6BXJ0QBDG3eead","SW Broadway",0
+"629","R_1PdEqNNxDXjDURN","Morrison",5
+"630","R_D1RZYXAVobSz77X","185th avenue",10
+"631","R_ur0bGQqkX8Vu5Jn","Bethany",13
+"632","R_2YeOVSwz8XeBBe8","Se Hawthorne and Caesar shavez",9
+"633","R_3FKvJNI0TzkgOEe","Tacoma and 13th",5
+"634","R_22Q4Lj5LWsBpXOr","39th and Killingsworth",10
+"635","R_1lua782UjNYt2cl","TV highway",-7
+"636","R_1HdkWHjyy7g5HJV","SW 125th and SW Conestoga Dr. (97008)",11
+"637","R_2ARP5PFANFUbZ5s","NE 33rd",5
+"638","R_1mXzHyOGrwYPW14","Lombard",9
+"639","R_1cTe7ESGdSgdMP1","69th and halsey",7
+"640","R_qDBID1aaSoBNXlD","college and 4th",0
+"641","R_3JrxeE00PJp2LED","SE 18th and SE Ellis",4
+"642","R_1pPXH0TGtjDV40v","Lancaster drive",30
+"643","R_3ivPub8ykqlzI1A","Montgomery and river parkway",2
+"644","R_3pmY3Mh5H50JNOY","Cesar E Chavez Blvd and Hawthorne",3
+"645","R_2WuSW4fMUX6fLrH","Sw main st and sw Division st",25
+"646","R_323GJDOx7aZK1LP","Se harney dr",15
+"647","R_2U3nQoOtp8TpzwI","Quatama and 205th",18
+"648","R_3G2Rq61I4iMVOSt","N.E. Fremont and   33 rd",6
+"649","R_2ypYoMiD3yJ1IyZ","SW Barbur and 17th",4
+"650","R_2VxxjkY9aeF8iyn","SW Cresmoor and SW Hall",10
+"651","R_31tNGc3U7pEBpeF","Sw 5th and hall",1
+"652","R_1FnZkr8cCZuA8JG","SE Mather",10
+"653","R_XNbbhUUyom6gHQd","NW Civic and NW Burnside",18
+"654","R_1f42SHCoae7dpjX","E Buttercup St and N Cedar St",26
+"655","R_ymSOoIsqZVHccIF","SE Powell and SE 162nd Avenue",10
+"656","R_12gb1e0pEmJfNrv","52nd and Woodstock",17
+"657","R_2ANo5drX3OIsyTC","162nd and Powell",9
+"658","R_1ImC1sS885IMjW9","SW Montgomery and SW 12th",0
+"659","R_1j9b1F1jJY8pqI2","NE 122nd and NE Stark",11
+"660","R_2S82IIjKtUEzZEo","SW 170th Ave and SW Merlo Rd",20
+"661","R_ZCPxr2PG6EdHA3L","27th and Belmont",3
+"662","R_1Ow9ZHel7kubNe5","Mcloughlin and Concord",25
+"663","R_9TTm1yVF47ouPuN","Burnside and 102nd",15
+"664","R_2fy7NOsfzqd0SdY","I live outside of Portland in Clackamas County",30
+"665","R_1QDGj4Q396lmscq","SW Beaverton Hillsdale HWY and Vermont st.",5
+"666","R_33rwmQ8cRwTWreM","SW Norwood Rd",16
+"667","R_1MZ2KTFXL9jgk9e","NE stark street and 197th",29
+"668","R_1CJaL1tKu02YyvT","7th and Alberta",4
+"669","R_3F23Uy2CCYHmBxk","SE Division",6
+"670","R_3j6QLhGLxh4NSvC","jerald ct and bridlemile",4
+"671","R_qUT1SPcPRnEw401","SW Barbour and SW Hooker",1
+"672","R_302IUo6mjMeSCqc","SW Farmington and 185th",10
+"673","R_3gMokGsiK2viKOh","72nd and Foster",7
+"674","R_1C8fppNKiBOi5r4","SW Hawthorn & 20th",5
+"675","R_6SbWh6xtuHiBLtn","SE 5th Ave and SE Cedar St",30
+"676","R_1NfzIhoDXlWvjux","salesman and Cornell",20
+"677","R_3DpQpFpDCM3sLDg","Division and wallula",30
+"678","R_0iCePq9nojqReFP","223 stark",14
+"679","R_DiV5LKqyDyZ5dgR","NE 88th and NE 21st",20
+"680","R_3OiAmLPhog3D6V6","NE 57th and Broadway",7
+"681","R_33ECKM3tGLrMhfd","Southeast Hawthorne and 49th",7
+"682","R_29tDJ1Xyoh6pRmv","30th Holgate",5
+"683","R_vqR9Ojfl0XtC2jf","185th and Evergreen Pkwy",18
+"684","R_1lfWwsEbolZDRJh","Johnson st and Cornell rd",-7
+"685","R_33kBBiqZkXiCpi8","6th and college",0
+"686","R_3IXZbnvJZ3Twooi","Skyline and 26",3
+"687","R_1jEeAe7kKLpamtu","S Gerber Road",19
+"688","R_2atYvfLnA6ruljU","no",-7
+"689","R_1k05B8VksFcQPrL","6th and Jackson",0
+"690","R_u987oLUsQNShHoZ","209 and kinnamon",-7
+"691","R_2WMz249SIN7SB1I","Broadway and Jackson",0
+"692","R_3suBJem4CjCpnzx","Hwy 26 and Brightwood RD",30
+"693","R_2XmMnyUORh0uWAF","185th & Farmington",18
+"694","R_2VyGqeG4kgVaLJ7","10th and park",1
+"695","R_BrIc0GENe2FkBxL","82nd and Sandy",10
+"696","R_2tm35ovonwAznBP","S Ginger and S 20th",-1
+"697","R_2qyiwypTbjCbddX","NE 53rd and E Main. Hillsboro",13
+"698","R_1hFl3V53QLRatY2","N Interstate and Lombard",6
+"699","R_3JbgsHitqE0BC9O","Mulino Rd and Hwy 213",30
+"700","R_3OoGdGyi3UxK9tk","E Burnside and 82nd",7
+"701","R_1Io1t91YtPT2ynz","Sunnyside Blvd SE97th",19
+"702","R_sUpzH94FLbCzCff","Not in Portland; in Vancouver",14
+"703","R_2zFR472oMdf6kwZ","Park & mill",-7
+"704","R_30eL7YvrfawpDfo","3rd and Harrison",0
+"705","R_2WHEWBP88oEBOYE","SW Barnes and Miller",7
+"706","R_1OpEA54Vn0HyB8d","sw downing and sw hall",15
+"707","R_2eQdKw3Lg8UbSGj","Holgate and 30th",15
+"708","R_1OCtxTUU6DgAIpe","NE 24th Ave and NE Alberta St",5
+"709","R_3gY3lD9AF1zBlz3","Holgate",11
+"710","R_3nMKHadMz15X9XN","Baseline",25
+"711","R_3389eesdnhJ2iX3","NE Cherry Dr and NE Century Blvd",-7
+"712","R_2zu0eJm8rVVmStU","SW Kelly Ave and SW Abernathy st",2
+"713","R_3knyVVmzcwSEc7J","Tv highway",15
+"714","R_1IZxFBAh5xYe1Kr","1oth and park",0
+"715","R_1GUDsZ5J6qlYDnf","26th and Ankeny",5
+"716","R_3gNmsa58eYGVsIO","SE Foster and SE 88th",25
+"717","R_3EmNoD4cJ4nkmNH","I live so far outside Portland that this question seems pointless",25
+"718","R_3qeRQQBMLWm0oiz","164th Ave and Highway 14",21
+"719","R_2THMu3iHYaBfvt4","Cornell and 173rd",12
+"720","R_6xTesD6dpl2Td2V","NE Alberta and Interstate",5
+"721","R_3m9QT4kqBMwtRWV","None",30
+"722","R_3kaC9WlA22Yp5QC","99W and Walnut",13
+"723","R_2uswdBdNBfOeAoq","Market and 4th",0
+"724","R_2s6ZxS2I87QTCwi","Tv highway",10
+"725","R_3rTbvYqJwf8MRiW","6th and College",0
+"726","R_2QAuQZJGN4Tj9Vc","Stark & 47th",5
+"727","R_1LtYCztt2SwGiDu","Mount hood hwy and powell",20
+"728","R_V4KbMaNLYM70sRX","SW Broadway",5
+"729","R_1mg6Ghin3Uqth9j","SW clay st",-1
+"730","R_uk2W8B8HlwWq2wp","SW Park and Columbia",0
+"731","R_27BQkrkrCx8UvXv","185th Street",15
+"732","R_3D2eAb8iwZzwfMO","SW clay st",1
+"733","R_2TSGHbZVjepSXbI","Springville and 158th",11
+"734","R_2YQS5BiCogU2AjB","173rd Ave and Cornell Rd",12
+"735","R_26hf7Z2HIaKIaQ5","SE Powell Blvd and SE 122nd",12
+"736","R_1dtoJoR1oVeSiXG","NW Cornell Rd and NW 158th Ave",9
+"737","R_3hzGHJ6xK8At3Mm","Cornell and stucki",12
+"738","R_33q0Mfd3j33BeXY","Free way",27
+"739","R_zdLoDjvbVnnLmGl","College & 5th",0
+"740","R_2TsBjuID9pLVJ1C","82nd Ave",27
+"741","R_1F5vivvNaj7WiwR","NW Bronson and NW 167th",15
+"742","R_1fkjRgOooZ7xcRP","Sw 6th ave and SW College st",0
+"743","R_r9oa1GK329sJhF7","Park and Market",1
+"744","R_3kOoSSXIjZH0JEw","SW Broadway and SW Montgomery St.",1
+"745","R_emqe4kuZqgiVOKJ","NE Glisan Street",16
+"746","R_11ZojB1QKVZB17y","SW Fourth and SW College st",0
+"747","R_1jSXX79TLj5vFv6","30th and alberta",10
+"748","R_3NXlEHfP2LdK632","NW Naito and NW Everett",2
+"749","R_bylU42ZasV9G4tX","99w and Tualatin Sherwood Rd",15
+"750","R_1Iobf2IeqcuWtQD","N/a",20
+"751","R_1NCfRXbv7agQFto","99e",30
+"752","R_3Mbzr0H5Yt3WM0a","SW 6th and Montgomery",0
+"753","R_2dMez0awCNS3UVL","se cesar chavez and se powell",3
+"754","R_2ZQezg4rwkVjwvE","NE Alberta and 27th",9
+"755","R_1mKlGObkYraYrJd","6th and mill",20
+"756","R_2EiqbDlkmAj5sDn","NE 7th and Ainsworth",5
+"757","R_3P5ECAVHxQSnWqU","SE Milwaukie and SE Mall",3
+"758","R_3hmVzrgIBAgP0Ah","171st & Division",20
+"759","R_33BIrNMclcATTjy","SE 14th and Knapp Street",4
+"760","R_3lYVix4tPPu2nS2","Jennings and Webster (Milwaukie)",11
+"761","R_3Eut1eH3XaqvZC0","12th And SW Montgomery",0
+"762","R_3G0QIeqodx3eoHC","39Th and Holgate",5
+"763","R_3fK0dyzVu4DO4Oq","N/A",7
+"764","R_2znMg4wJn7BB05y","River Rd N and Chemawa Rd N (KEIZER)",30
+"765","R_ANf0Rg0Keic7kyt","SE 47th and SE Belmont",7
+"766","R_Y9sgFCmXKwkkMJH","Sw hall blvd and sw heart rd",10
+"767","R_1DYne4vMIxkxuxN","SW 173rd Ave and SW 171st Ave",10
+"768","R_2U9sdLqlCgM2RUF","sw warbler way and sw horizon blvd",13
+"769","R_1NZjG3VYWpXaVIB","SE 74th and SE Duke",10
+"770","R_2xSqHAqnVcfLKM2","Columbia",3
+"771","R_x0k1GiHf1VfbAUp","NE 60th & Glisan",7
+"772","R_1N1ZBXlyEJ6dtRK","SW Walker and SW Murray",10
+"773","R_e4fggTmZoXS7Qul","SW Jackson st. And SW Broadway",0
+"774","R_3IcSMpmNbLwE7R8","Murray and Millikan",7
+"775","R_1FhNPqz6x8LIWYk","Se 132nd",9
+"776","R_3eaWLOE7SfHt3sc","NE 15th Ave and NW Evergreen Rd",22
+"777","R_3KTTn73uJvRlrvI","I live in Yamhill County",-1
+"778","R_8bS8eBDfFWJRUsx","Hwy 99 and 117th street, 98686",13
+"779","R_2f0pOWm1HPoCCYt","13900 Se Highway 212 and SE 142nd ave",28
+"780","R_3gRyaqcmO1JoZ6h","Sw 170th Ave and Baseline in Beaverton",11
+"781","R_1gd90oSjFGr5zNI","NW 21st at NW Hoyt",2
+"782","R_1mPOhlkkvqrdKhx","SE division",15
+"783","R_x4KLV6Zxgxj2KWJ","SW 6th Ave and SW Jackson st",0
+"784","R_22Wz6rTdYB8LcPZ","NE 102/Halsey",10
+"785","R_25N7iI5DU5XBkWR","99e and 205",21
+"786","R_2b2BqgkJTaETNB3","Imperial and King",7
+"787","R_yImlmRL4jr9FwSR","Hauglum Rd and Bluff Rd",30
+"788","R_25LbxHsWKPs0pUl","NE 223rd and NE Sandy Blvd",17
+"789","R_xDFjZIU5n6moXL3","Woodstock and 39th",4
+"790","R_AnAzeEPmSPJptQZ","Willamette",-1
+"791","R_1gAu4mnxLOMo7Cm","Murray and Hart",17
+"792","R_3g1sbxqqjPa8IIQ","sw scholls ferry rd and sw 130th ave",-7
+"793","R_9mF4wD2bTdXwRKF","Salem Parkway and River Road (Salem not PDX)",30
+"794","R_23d7TzEsg7Gkad7","SE Division",10
+"795","R_2SJKByDNZsEAHRO","SW Johnson Creek Blvd and SW 32nd Ave",6
+"796","R_1dnSgXSPpcdflIz","Denney Rd",10
+"797","R_9vFEBisAksTdsXL","122nd and division",10
+"798","R_211cYOELHr9tGTk","SE 75th Ave and SE Powell Blvd",6
+"799","R_1MKueKrd8nu2PSB","SE Harvey and SE 32nd in Milwaukie",7
+"800","R_1H11N9lCY3K8113","6th and College",0
+"801","R_1im3GHJ62qcuqUP","NE Halsey",30
+"802","R_2WGryw9ndMcdXsJ","Foster and 72nd Ave",6
+"803","R_1eKL0BvNOEQc1Yp","I live in Hillsboro",12
+"804","R_1giJk2ImArkAPvR","6th and college",3
+"805","R_3ERcvr70Zc6b61l","SW Clay",5
+"806","R_3ipYaWhrCTCSIal","122nd and Powell",10
+"807","R_3lYvv709qwanBdt","NW QUIMBY AND 19TH",3
+"808","R_27JqrpYLkskFbDW","Sw B st and 19th",29
+"809","R_2fiI7bbAnfYmj5A","Corbett and Hamilton",2
+"810","R_yQ3JfiWqWTc6dFv","Murray Blvd and Linda st",26
+"811","R_VKkotQSvVHENBDj","SE Duke and SE 76th",7
+"812","R_2S7THfKMzig1dG8","SW 5th Ave",0
+"813","R_3j6TggLN9WhKncp","SE 20th and SE Belmont",3
+"814","R_1KT5WNTBeSwoN0J","99th Street and Hwy 99",15
+"815","R_12fK906ePiARXDM","Sw jackson and SW Broadway",0
+"816","R_2y2wWyCxbNCcGVg","SW 6th and Broadway",0
+"817","R_1eUHm3AGToBznlY","Sw pacific hwy",8
+"818","R_2ZVzil6Mi1EED9A","SW 17th Ave and SW Columbia St",4
+"819","R_2wnnN895gHjjTNQ","W Powell and SW Eastman Parkway",19
+"820","R_9ozChXSpXURhbWN","162nd Ave",9
+"821","R_3D6LFGi3P9PB40R","Main",5
+"822","R_3mdvGIAq9Rl7Vw8","SE Foster and SE 52nd",5
+"823","R_1HifuWSizP3SbCR","Cesar Chavez/Powell",4
+"824","R_3gNnT4LF4KWp3aH","Powell and 82nd",15
+"825","R_1pFs1A9kcwC98O8","sw 6th ave",0
+"826","R_1llwGDlYM0IT5r0","SE Powell and 84th",6
+"827","R_brNdcFJBhO2K4lr","SW Market St and SW 10th ave",0
+"828","R_305YLkdWcchpq3n","Ivy and Ponderosa",18
+"829","R_1K0GuIFeR8F2KCI","broadway and 6th",0
+"830","R_2qh3SsqktLmf8Te","SW Hall and SW Allen Blvd",30
+"831","R_1NdXNCvYmU1E6kJ","Cedar Hills Blvd and Walker Rd",7
+"832","R_1ikAgpGuRFsVvrB","Sw st and Sw ave",3
+"833","R_1q3XF7UiWA70OwX","SW Murray and Carolwood",20
+"834","R_3exFz8Apy9bm4Gv","sunnyside rode",11
+"835","R_3dWYRdtE4VxZO9c","SW College & 6th st",0
+"836","R_27KfpoEx6iZroV3","26 and proctor Blvd (sandy Oregon)",24
+"837","R_RgJC9pUVjVIguQ1","4th/ Harrison",1
+"838","R_2wiAAKolrztzfJT","SW Murray Blvd and SW Beard Rd",15
+"839","R_1EfUv1utBzzxdPt","SW 150th and Walker Rd",7
+"840","R_xrekPJYuqWuYZ9f","SE Cesar E Chavez and SE Francis",5
+"841","R_2qsXeZOMW8vnGFm","SW 5th and SW Broadway",0
+"842","R_33BUr98Rq7LwO9s","SW Broadway and SW Jackson st",0
+"843","R_2rV2PlIBk0PoK2f","Park and Mcloughlin",14
+"844","R_1OkQRwOvK1cZlyR","montgomery and 12th",1
+"845","R_27QhcWgs1Xzj74P","SW Scholls and Murray",20
+"846","R_1C8uDrpwgL22sCl","170th and TV Highway (Beaverton)",-7
+"847","R_2OJv2Xlrv0RWBnI","185th Ave and Baseline Rd in Aloha",11
+"848","R_2qgtioEDGDj5ZxW","N. Albina and NE Killingsworth",5
+"849","R_2QoeghDipDpdE62","Powell and 223rd",-7
+"850","R_2U5WjYK5JHnp79P","Springville & 185th",12
+"851","R_3QGkHndtQflUYfu","SE 52nd and SE Foster",5
+"852","R_yyd13bF70wdRVbX","SW college and 5th",0
+"853","R_2cCt12NADYbPiYb","128th and Holgate",10
+"854","R_28XTaiMaOZANmcO","SW Murray and SW Jenkins rd.",10
+"855","R_BKY6TGz8FUmQdtT","82nd and sunnyside",25
+"856","R_Ug1piyWhD1gSGT7","Burnside and NW 21st",2
+"857","R_Zyu0Gu076TuHkel","I live 30 miles away in the country",30
+"858","R_1hZ7DPnubbsC17h","SW Montgomery & 12th",0
+"859","R_VUzhI0Dxuuu1icF","N/A",26
+"860","R_23g9isbC6guflCC","Brookwood and TV Highway",23
+"861","R_2E4e7WhxJINSvi5","N Ainsworth St and N Campbell Ave",5
+"862","R_eajfyXRKKVGEr5f","Hwy 99 & 99th St. Vancouver, WA",-1
+"863","R_390EWR4yaC30Srv","SW 6th and SW Hill",0
+"864","R_246pFT7vYFDc5iG","Barbur and 30th",5
+"865","R_3Rf3GWrUV4iHsKM","Beech and Main",23
+"866","R_22y39J9TLyrriyx","SW Broadway",0
+"867","R_2xQNNPTA5isFgsC","SE Holgate",4
+"868","R_1DZilKD5n1icmpm","SW Hall Blvd",11
+"869","R_2S7VAEMRy13Kc0F","SW 11th and Clay",0
+"870","R_1QDzDjoJv1jO4Ou","Canterbury Lane and Highway 99",11
+"871","R_2ta75kx9LKBnktn","Division",10
+"872","R_qUxwEfxi6ZH5MWZ","NE 82nd and Halsey",7
+"873","R_8evMinFOUPW3pZv","capitol hwy and dickinson",6
+"874","R_2WIPZgNIzfOQDpN","Baseline and Cornelius",17
+"875","R_4GVNZhbbNrnoNLX","I am moving soon but currently Broadway and Mill",1
+"876","R_3Oek5DlKRNPT42M","NE Arndt Rd",23
+"877","R_1EhqdUPOAT75SNS","Ne 33 and fremont",5
+"878","R_2DTGB6BIIL9mqzE","NE Century Blvd and NE Birch St",10
+"879","R_29ogIdbLrq3GUSJ","I live in East Vancouver",20
+"880","R_8qApCivtduXEbjX","17th and Market",30
+"881","R_28UO4Z3Rcg82JD4","12th and Montgomery",0
+"882","R_3lRn044DwPzcOCS","SE Hawthorne",3
+"883","R_3qr1Qvc1YNKWYSG","SE Burnside and SE 28th",3
+"884","R_wLAiIu0RDtae3n3","SE 122nd and SE Harold St",10
+"885","R_2taOuEKLex5Jm0Q","185th and Johnson st",10
+"886","R_2b3LvmIdk0Sk8vE","SE 16th and Stark",3
+"887","R_12li7LLqvvdEF9a","Hwy 224 & Oak St",7
+"888","R_296pzpybStJikBI","SE Railroad and Se Lake Road",20
+"889","R_3j36f3roMgDBNJw","pacific highway and SW 74th",-7
+"890","R_3hsVlYOoFAbU01b","Broadway and SW Yamhill St",0
+"891","R_2P54PKm7a9CPyI0","Nyberg & Martinazzi",20
+"892","R_2SBtQiG9yys6oUZ","Tucker",-7
+"893","R_2aDVarX9QgeVXkl","NW Eastman Parkway and NW Division Street",12
+"894","R_1QbCuVNUlbnZfyW","Killingsworth St. and 33rd Ave",18
+"895","R_1rJnH1haTl00QZi","SE Burnside and 122nd",8
+"896","R_3LdqNoBQHnCJjLo","McLaughlin and oatfield",11
+"897","R_d4JOrXJwmlARJdv","21st and baseline",20
+"898","R_1NwC05E3and0xJ2","SE McLaughlin & SE Park Ave",10
+"899","R_eyzNh44JGasEUOR","Burnside",5
+"900","R_2q7tShhniTOFfRV","NE Prescott and NE 15th Ave.",4
+"901","R_1LbVxDcPKLsR9pb","SW 5th and SW Hall",0
+"902","R_3NRllmYfjocCCjV","Yes",0
+"903","R_1NluAubFcE5E9M0","hwy 99 and hwy 18",-1
+"904","R_DGjYekZKkHYDNv3","foster and powell",5
+"905","R_2U9PrHGc7fK0ZvK","SE Holgate Blvd and SE 42nd Ave",4
+"906","R_Z9nwCRK4wZuQdaN","N Willis and N Chataqua",7
+"907","R_2qeYIoiNItNMOsy","167th and Divission",13
+"908","R_3qwzDp7auIguQ4p","scholls ferry and u.s. 26",4
+"909","R_3PFBAvDxCXloDP5","Gaines and Moody",2
+"910","R_Br0lVBUZ5nYOg8N","22nd and Johnson",2
+"911","R_3ETr5GLWH3NlPNI","Talbot Terrance and fairmount blvd",4
+"912","R_3scbPVETTm4u5mA","SE Alder St",12
+"913","R_2X6ENYOl5VffubG","Broadway",0
+"914","R_32W3MUN5m1fpODq","East of oregon city outside trimet district",27
+"915","R_0Gu4QowR7TZpuLL","99w and Mineke rd",-1
+"916","R_1GNOF3G5raedqyM","NE Fargo and N Williams",-1
+"917","R_qxYbxk55yK5rH4l","Interstate and N Lombard",5
+"918","R_3NUsO5aB6NuXSkn","NE 23rd and Fremont",4
+"919","R_3HYr4Q0QVzxIRQe","Interstate and N Skidmore",5
+"920","R_3PLlJMbIQg59E0n","NE 148th Ave and E Burnside St.",8
+"921","R_32VlSt5hAXiiw8I","SW 6th and College",0
+"922","R_3CVgnC86cp9Mypw","Gary and Davis (Sandy)",30
+"923","R_2s763yapDDdRjpv","Mlk and killingsworth",-1
+"924","R_3QSLZUNr03Dku0S","College and Jackson",0
+"925","R_3OpEbGgdZpQN6lF","Hoge and 30",10
+"926","R_3q9BKLGWoo5G4jl","SW Allen and Murray",10
+"927","R_1oC3qsAmsuy3tRJ","104th and Holgate",7
+"928","R_4McEJq00ewXvesV","SE McLoughlin and park",-7
+"929","R_2c2dEptO0tvLIsc","Quatama and NW 205th Ave.",25
+"930","R_3syl9TDDd0fgVTM","freemont and 67th",30
+"931","R_10C9t7GquCnbGk4","SE Claystop st.",14
+"932","R_2v6XAHMahsSXur2","Se Cesar Chavez & se Crystal springs blvd",5
+"933","R_11ZoaGxTK4Pgkxw","SE Duke and SE 63rd Ave",7
+"934","R_1I9AaEcmGz3kg6d","Prefer not to Say",23
+"935","R_1fabrG7hGyUZExZ","SW 11th and SW Market",0
+"936","R_7PScKqxWCb8aOul","SW Montgomery and SW 12th Avenue",0
+"937","R_2sWFJYDQUUkKfGR","Orenco station loop",25
+"938","R_1CsyBVdBOD5Pof6","6th and college",0
+"939","R_UrmP8wTdCCJKBOx","Jefferson and 18th",2
+"940","R_WBOZmmcKTD6RoPv","Glisan and 22nd",6
+"941","R_1CD5uFNN4hz7Ivs","Se Division and Mill",30
+"942","R_1nV3bWn9McRZQJd","SE 30th and Hawthorne",4
+"943","R_2ZZyPXZCCMree7K","Lombard",30
+"944","R_11Z7tC9L5SF9fOn","Sexton mt. drive and sw marcile ln",13
+"945","R_2ZUl8N3FynD8OYf","SW Beef Bend Road and SW Roy Roggers",26
+"946","R_129WeiaGGrsfbC0","Sw capitol highway",5
+"947","R_yQoivf2bSYW1mZX","6th and College",0
+"948","R_2sJq2IxWb2VoorT","Nehalem Hwy and Park Dr.",30
+"949","R_2xFDyZGP1Jkwk7Y","Sw clay",-7
+"950","R_1QrRBYDr3HfqitT","2nd and. Barbur",4
+"951","R_8Cdak6Xh1CNECFr","SW Broadway and SW College St.",0
+"952","R_XZkRosqCeuyjmQV","72nd",10
+"953","R_1FFl8N8PhXOka0a","Aw Broadway",20
+"954","R_2X67fqxF3RqFShZ","SE Hawthorne and 47th Ave.",5
+"955","R_2OSJZdvceURkGmE","SW Teton and SW Avery",20
+"956","R_3P7whqCgMfLSJEB","SE stark & SE 82nd",8
+"957","R_3LiJ1NXssishhvX","Scholls ferry and Beaverton hillsdale hwy",5
+"958","R_3hsSpnXvndsQG25","Killingsworth & Cully",-7
+"959","R_2SwVeI8KCIoTavb","College and 4th Ave",0
+"960","R_W0DmDJxv3VOB6hz","SE Powell",-7
+"961","R_25KjdG7N4E2KYaa","Jackson School Rd, Evergreen Rd",19
+"962","R_3jea4QOhjsqSgQ6","Sw Park and Jefferson",3
+"963","R_2y7Wh0SmKw9R4qR","SW farmington and SW 157th",13
+"964","R_1ertaSZ4Srwmupk","Scholls Ferry / Beaverton Hillsdale Hwy",6
+"965","R_RIchSIa2fq2GE6d","Division and Hogan",23
+"966","R_6Pa6bb9NtfIj6dH","Park Ave. and Market",0
+"967","R_2Yy3Hhq36HfwKW8","SE Harrison",15
+"968","R_2tEHRvq6tOuw4Va","Cornelius Pass and Cherry",15
+"969","R_OwgeYrQcOGcRn7b","N Lombard st and Interstate Ave",8
+"970","R_yO57s6wt1vEPkhX","Orenco Station and cornell",-7
+"971","R_3KUeBqVMW6ItV15","Farmington and 185th",12
+"972","R_3OctP19YwDxCPOy","Hart and Murray",15
+"973","R_1GVR3lH2tITiPSe","Sw Barbur and hamilton",2
+"974","R_33p5NeNOoB36wG6","Delta park",25
+"975","R_2Bll1gizBiiEThQ","SW Park and Clay",1
+"976","R_3MKkXkn88XCerno","SW Montgomery st SW Park ave",0
+"977","R_3elDYzwxhGmIz1a","NW 23 ave and NW Glisan",-7
+"978","R_1LLi7apKjrpXxzJ","SW 17th Ave and SW Morrison",5
+"979","R_5BCxaTHlxE9Wdbj","Broadway and SW Jackson st.",0
+"980","R_1mkCE4RXD6c7qCb","14th",3
+"981","R_1Fx2WzkGgnxO2S3","Ivanhoe and Leavitt",8
+"982","R_72K2vEuPxhLVDxf","NE 21st and NE Wasco St",3
+"983","R_3g5RDymO567eoAM","Sw Sunset Boulevard and Sw 27th avenue",4
+"984","R_3niw0U74NtTeXtc","NW Johnson and 16th",3
+"985","R_eKU14pdpvHGWB4R","MLK and Russell",2
+"986","R_3Mgs2gePORDxFzQ","6th and college",0
+"987","R_2wyLHaGRwLkBonK","Sw 6th and sw college",0
+"988","R_6yWvLgvGuy3Kgpz","Sandy & 91st",15
+"989","R_1LcjQQdD2bSsFOp","Powell and 181st",12
+"990","R_2PA9HZvb35HOihC","Baseline and 185th",12
+"991","R_XGI4G0LKaVDTL6F","33rd & Powell",15
+"992","R_3oT0WZkv1kjaAiT","SE 13th and SE Marion",7
+"993","R_1K8ZElOv0BQ0Z9a","SW Jackson and Broadway",0
+"994","R_Zfd48tGdw2Jnbc5","170th Bany",13
+"995","R_3Poa54cIANWeb2E","Salem oregon",30
+"996","R_2awBRPkyhzhEvyd","Sandy and 205",10
+"997","R_1Kg10aEh8zMlmR9","W Burnside and 21st",-1
+"998","R_31tk87lw3vLRpTb","Lombard",10
+"999","R_3jUHZffhduHOK8V","S Conway Drive and Hwy 213",20
+"1000","R_3iwDaqeu5d6ngnO","53rd and Handcock",7
+"1001","R_ZdA4kQAzWCB0QRX","Sw main and market",-7
+"1002","R_1IZd5Bxmcxlcj0f","NE 53rd and Thompson",-1
+"1003","R_BREPXYIkeoz3Bdv","170th and farmington",11
+"1004","R_1rDHtLZHouzaerz","SW Farmington & 185th",-1
+"1005","R_28BDbjSkOA0pE7J","College and 6th",0
+"1006","R_0rBWuK9sNInYEXT","Glisan",-7
+"1007","R_ZabdRUAxg1he7T3","N. Killingsworth and N. Detroit",5
+"1008","R_2ZIj1k55N3Gj9Gw","5th ave",1
+"1009","R_2BwyC66GsRZWCD3","SE 82nd",10
+"1010","R_QhaIyHBUDvLckzT","Cesar E Chavez and Gladstone",10
+"1011","R_237VCnDvgKBTMei","10th and Montgomery",0
+"1012","R_1M4G0nSMGJDw394","60th and Glisan",-1
+"1013","R_vUqrymBCLFHKbux","SW 10th and Montgomery",0
+"1014","R_2WMUYlhu1lwFM2z","millikan and murray",15
+"1015","R_1gtPbktVDy3CqiJ","82nd and Sunnyside",20
+"1016","R_Om3uDuDV3VPtY8F","stark st. troutdale oregon",21
+"1017","R_z2rluoTMbiXFHVf","Holcomb and Barlow",16
+"1018","R_u4kZmoTaBa32h4l","west union & 185th",7
+"1019","R_1EbdeQ8UySdBThQ","SW Park Ave and Montgomery",0
+"1020","R_ULuwVauJRlr5hap","Broadway and 6th?",0
+"1021","R_Ryw0H6U5YajIrgl","NW 185th AVE and NW west union",10
+"1022","R_3kMspGoThuImSHz","TV Hwy and Cornelius Pass Rd",10
+"1023","R_ALoK9b3Vyk3HdIZ","Kruse Way and Boones Ferry",8
+"1024","R_cIOHKgYtnI7PyhP","SE Bluff Road and 322nd Place (Gresham, OR)",20
+"1025","R_8BNdxWDOROVrSk9","Sw Jacksonstreet",0
+"1026","R_ea2giGNfidu5bpv","I live in Wilsonville",30
+"1027","R_p6QH88cpNA1kni9","SW Broadway and SW Jackson St.",0
+"1028","R_DTxkTb27DeZ7vEJ","West Linn",9
+"1029","R_3R8bZRq5jhSs5DS","Bunside and 50th",5
+"1030","R_3RqnkuEfvvIdqmq","SW Barbur Blvd. and SW 30th Ave.",5
+"1031","R_2abjAOo3BXorJ9n","185th and Tv HWY",10
+"1032","R_3n1Ob11PL1mZcPx","SE Division",10
+"1033","R_1mrAlWaaYYPIF6S","Barbur and Capitol Hwy",5
+"1034","R_Z8Kb1ZEH2fg9jyh","SE Juniper and SE River Road",8
+"1035","R_0IYYLoJY8NvizzH","N/A",8
+"1036","R_3MJYPw4nFHS0Qfq","26th and stark",5
+"1037","R_3HHNm89mvsFM9lR","Keizer, Or",30
+"1038","R_2zqd8UmXY9PJH44","SW Walker Rd, SW Murray Blvd",-7
+"1039","R_1FaIN4V0fo5BUra","SW Montgomery",0
+"1040","R_ZCSbnpP0wjucCE9","Powell and 71st",6
+"1041","R_1F2FEiTkjN0bSG0","Belmont",5
+"1042","R_0SQlXcaBW5r71U5","SW broadway and SW Yamhill st",10
+"1043","R_bDRxCebQNAMOuEp","Halsey and NE 157th Ave",11
+"1044","R_12xV2ABAqBl1NMY","122nd and Market",10
+"1045","R_vGN2syI3nkZoe5P","West Union Bethany",-7
+"1046","R_1CrTai7YJqIrIe5","SE 28th and Powell",4
+"1047","R_2diKqcN6Md6sVA9","Sw gaines st and sw moody ave",1
+"1048","R_spo4xP40q65CUYF","28th & Gladstone",3
+"1049","R_3r1kWGfzofezLqC","174th Ave and TV Highway",12
+"1050","R_21yQoN1RMBeVG5Y","NW Everett",5
+"1051","R_1r7ATnydIBAUpej","Nw McDaniel rd and Thompson",7
+"1052","R_33BvUXTV9ItciDb","3rd and MLK Blvd",3
+"1053","R_3q8L6f0deGaj7Bf","SW Montgomery St and SW 12th Ave",0
+"1054","R_3ltTNJjnsIBxmeD","Beaverton Hillsdale Hwy and Olsen",5
+"1055","R_2Y9CCWnZKjSUEFz","Lombard St. and Olin Ave.",15
+"1056","R_3ffQdbWZ09EP8GQ","Belmont and 45",10
+"1057","R_3g7XN4xHR81Ex3a","SW Ewen and SW 185th",9
+"1058","R_3EYEKo7AfTDwOSM","milton st and 86th st",30
+"1059","R_1pZ4hgDKJuS2P5e","82nd",10
+"1060","R_wRfYmgzCpgNAdJD","SW 170th and Rigert (Cooper Mountain, Beaverton)",10
+"1061","R_3rS60hO4fBvCWHX","college and broadway",0
+"1062","R_12r0gZEPAq8oJ5f","NE Hogan/242nd",20
+"1063","R_1cYOTo0gi2xV5ei","Nyberg and Mohawk",10
+"1064","R_3JaznRi9ouXt2Rf","SW Jackson and SW Broadway",0
+"1065","R_2yrXEm5tboSanqy","SW Jackson st.",1
+"1066","R_8ra9VcUdlxPuDwR","Taylor St and 82nd",8
+"1067","R_2xF2IoQnfTPKzrm","SW Park and Market",0
+"1068","R_22nyomX3YdQpoC5","Beavercreek and HWY213",20
+"1069","R_1NCaA6m11DnvSvm","Harrison court and 5th Avenue",1
+"1070","R_ZCBBzZWlYNLmavD","Meyers and Molalla",30
+"1071","R_2335VaA41XfFrM2","sw 5th and college st.",0
+"1072","R_2aRVYmnxFitnVkp","Stark and 181st",15
+"1073","R_3j6RB5QjefgsQWM","SW 45th & Beaverton-Hillsdale Hwy",5
+"1074","R_3O2KeNkmDVa2l5e","SW College Station and SW SW 5th ave",0
+"1075","R_3lMM1X49dV6blOr","SE 32nd and Knapp",4
+"1076","R_22WB2R7qsWbqoLI","SW Columbia St & SW 17th Ave",1
+"1077","R_2uqcGFuEIiOchcA","5th and college",0
+"1078","R_3r1xWXcQxsKHjC8","6th Ave and college",0
+"1079","R_2Y5QD8xrOdjpFmV","NE Broadway and 12th",3
+"1080","R_1l48FlG4bDQaFUe","SE 135TH and Division",11
+"1081","R_1BWqmRgA4UYBlbp","122nd and Division",8
+"1082","R_vZHFrDfLTqLrc4N","halsey and 181st",-7
+"1083","R_2xP28l8WKRhPRCt","Cleveland Ave and Burnside",-7
+"1084","R_PSPcNN0GEojtR5v","Foster and 92nd",7
+"1085","R_3GjMemNhx1sycBM","SW Courtney & River",12
+"1086","R_22WBdHqf3Os1oHk","SW Broadway",1
+"1087","R_10IfywUOW9WrcQX","SW Broadway and SW Jackson st",0
+"1088","R_2QrMWQmTAkUyUHL","Prefer not to answer",17
+"1089","R_4YZSnNaIzhyIe3v","Killingsworth & MLK",5
+"1090","R_11Zv0EhmxOCbKUc","SE Foster and SE 82nd Ave",-7
+"1091","R_3FKGlWBSRdsYiAC","SW broadway and 6th",0
+"1092","R_tYfChwvgpI3iW0F","N Alberta",5
+"1093","R_3s6Svk1y85yCsOd","SW 14 and Columbia",6
+"1094","R_2Yfv0FWMPfEDEWc","NE Broadway",-7
+"1095","R_31sEfmN0LlD7NQs","6th and Hall",0
+"1096","R_2QAGPhXuwHRvxep","Minter bridge road and Gerhard drive",16
+"1097","R_2OPljSU28vdTQu0","Farmington and SW 209th",11
+"1098","R_3nwKPZ1P2lYkLdr","SE McLoughlin & Oak Grove",10
+"1099","R_1DGb6UBYNRdy9wF","3rd and Hood",20
+"1100","R_3GlfIc9X4djttTb","NE Cornell rd and NE 21ST",18
+"1101","R_3HY4M19lm8kagDK","181st and powell",23
+"1102","R_3FVg5WbWYOC8AwZ","Scholls Ferry and Murray",9
+"1103","R_vviT1UOgCjh4bSx","SW Cedar Hills Blvd and SW Park Way",7
+"1104","R_3fNTEdHrh2gYy96","72nd",25
+"1105","R_1dn2dPUCCcOB7Y2","College and fifth",2
+"1106","R_bw6WrQK0gVClXsB","N/A",30
+"1107","R_ZxcAe3rZS5X04Ct","Bonita and 72nd",10
+"1108","R_306RvZgcs8JEzWj","SW Broadway and SW Jackson",0
+"1109","R_2CNZm1OfSnu6dUa","SE Stark and 30th",3
+"1110","R_2tkYi3RQA2F0TQR","Montgomery and 12th",0
+"1111","R_2trLUBJhwZ9aJ7g","NE 122nd Ave. and NE Shaver Street",10
+"1112","R_1LprGPb8OXFUyLf","Vaughn and 23rd",3
+"1113","R_2V7sTzK7T0QIlpJ","Barbur Blvd",7
+"1114","R_VXenrwDFMJ6RDy1","Burnside & SW vista",4
+"1115","R_2TC5OpWrA7iTfBP","Thompson and Saltzman",17
+"1116","R_1GByS6fDM6trFRq","SE Lents/Foster",12
+"1117","R_Om4X49386POWY0h","SW 204th and Farmington St.",13
+"1118","R_PGnAiyFjDvdAcdb","Boone’s ferry",30
+"1119","R_3NECjebMSF8JAXP","Columbia and 17th",1
+"1120","R_UsCKreLgFdCfXwZ","i live on campus",0
+"1121","R_2vc9NvEiDaYkD1Z","130th and Holgate",16
+"1122","R_2QzcIuyOfWKsKyy","SE Holgate and 122nd",9
+"1123","R_2B5Vh28dXv5cPqt","SE Causey and SE 82nd",11
+"1124","R_3QJM99yOmXkFfHy","Farmington Road and 209th Ave",13
+"1125","R_1DwjgFvwEtuZglO","102nd and Fremont",10
+"1126","R_3GBNHDLDk44IRKF","SW Montgomery St. and SW 12th street",0
+"1127","R_eKTUL4JZfMNLfyx","TV Highway and Brookwood",15
+"1128","R_1dxYzFf6PI351va","Broadway",0
+"1129","R_3QSokznTMf8WZfr","NE Sandy",17
+"1130","R_10qpmAiW96TUwJ8","Market and mill",0
+"1131","R_294zZhzN9Cqqrom","Division St and 136th Ave",13
+"1132","R_3rHbQMwuqKz5EdF","Hawthorne and Union",2
+"1133","R_1N8HT5M0nk28as2","TV Highway and SW 209th Ave",13
+"1134","R_72F3IDw7XUNGD3r","N Woolsey and N Lombard",8
+"1135","R_2wdz3P2YP27Uiqc","SE Brookwood and TV highway",20
+"1136","R_3LjpIWZvZVrNjsd","Se Sunnyside rd. And SE Stevens Rd.",12
+"1137","R_3Jxhr1MdWIi9yuf","SW Millikan Way and Murray",10
+"1138","R_3mfuV9JPYJPaV8r","Baseline and 185th",11
+"1139","R_3nfv2yEXBuhMSBv","Farmington and 185th",7
+"1140","R_pocxktT1sQqaUdr","No",21
+"1141","R_3paJzlqlwXRqg4F","SW BARNES and SW BARNES",9
+"1142","R_XyXwqDXzbp3VH9f","SW 19th and Barbur",8
+"1143","R_smRJUtbkyhYwDId","1",-1
+"1144","R_22lYTFWUbaxe7Uk","N Williams and N Alberta",5
+"1145","R_2afxOawC2XPkRXH","Sandy and se 18th",3
+"1146","R_21tbRkrjRV18gqT","SW Murray Blvd and Scholls Ferry Rd",9
+"1147","R_2zveKeOvSc2XXBu","sw Corbett ave and sw Richardson st",2
+"1148","R_0okndKdFEMYHQfn","TV Highway and 185th",-7
+"1149","R_2CrAI5OwziSBRjt","Powell",5
+"1150","R_2E4ednbPDbqVbKP","Glisan and Halsey",26
+"1151","R_3iU3qEOUYbO0O8C","Sw park & sw mill",-1
+"1152","R_2xJmgl8YS9JaIr8","NE Cornell Rd and NE John Olsen Ave",12
+"1153","R_2uIhI7xCOiNvZQK","NE Broadway and NE 25th Ave",3
+"1154","R_1gdvLTKFlBK2PNt","burnside and 28th",20
+"1155","R_cx3wrTtFSUuj70d","SE Division and Cesar Chavez Blvd",4
+"1156","R_3D5Wiy9EKmDlrik","SE Powell",-7
+"1157","R_3lX3xBYbhpIBUdm","sw beaverton hillsdale hwy",4
+"1158","R_22QvKdvZzoSxONC","SE Holgate",8
+"1159","R_1CwDnSGDwPaSdO4","North Dakota and 109th",14
+"1160","R_2sXSsOlxrT7Cz66","Broadway and SW Jackson",0
+"1161","R_2YApSDjMlX17j4m","SE Duke",23
+"1162","R_W9xnvPyE3uESaqJ","SW 3rd and Jefferson",1
+"1163","R_PUwkCkWDv2J06mR","SE 92nd Ave and Flavel St",7
+"1164","R_3kuB6AVhnh8tJrk","SW Broadway and SW Yamhill",0
+"1165","R_3dRPesUgwhHB1rb","SW Broadway and SW College St",0
+"1166","R_3j6SmaHd0vTuD7n","12th and Montgomery st",0
+"1167","R_2Y376IcLKeXqnRr","SE Holgate and Cesar Chavez",5
+"1168","R_ZE35rBvKH5YCzWF","Sandy Blvd",21
+"1169","R_3hrxgTpaqre4cMw","11th and mill",0
+"1170","R_3dQjEaXMDrF7D9A","Barbur, Capital HWY, Taylors Ferry",11
+"1171","R_1rAEVIzv8gBH5AF","SW Mill and SW 12th",0
+"1172","R_27m246JdZbH6kBd","SE Division street and E Burnside",15
+"1173","R_3NyXfA76o0gwJTR","12 and morrison",0
+"1174","R_3PS4y8kr1DbkGKA","5th and Jackson",0
+"1175","R_Zfp3VDUTjJiwXQJ","SW jackson and SW 6th",0
+"1176","R_1dH3DHMoyIvjW0R","Willamette Dr and Hidden Springs",-7
+"1177","R_TbyDIKA4humsmJP","SW Vista and W Burnside",2
+"1178","R_1LhDKFDMy3clqJ8","SW Camelot ct & SW Canyon Ld",4
+"1179","R_28ONWhbhotZHMjd","Capital Hwy and Sunset",10
+"1180","R_3sBavAoknc5PwSi","McLoughlin and River Road",12
+"1181","R_3R4lH0LPHtwDwEe","33rd and Dekum",10
+"1182","R_12LV8itezPiPHo0","SE Stark",12
+"1183","R_111iX4fy75jKzWK","Se 82nd and Harmony",20
+"1184","R_1OVnO6fbkPwDsDm","Burnside and 181st",20
+"1185","R_117qeQTMGIwiEd5","I live outside of Portland near Sandy",20
+"1186","R_ePylTMnLTQkBCNz","MLK and Killingsworth",5
+"1187","R_1H7ZAmIxGtB5TDz","interstate and rosa parks",4
+"1188","R_27pQZSbD5wsKHbn","I live in clackamas",12
+"1189","R_9TP7pTsfSIHpXJT","Wilsonville Rd and Town Center Loop East",-7
+"1190","R_12bAIWfGV0WXboe","SW Clay",10
+"1191","R_27ILzQmy6V9ErrO","S 19th Avenue and Dogwood Street",24
+"1192","R_3kh8aL2dWPbuxmV","Market and 12th street",8
+"1193","R_3PHTisDyWudgmsA","26th and Holgate",2
+"1194","R_3pbQtMu4CyXHh1F","Jackson School Rd and Harewood",26
+"1195","R_1PSq7wOrSCRsivR","NW Cornell & 185th",12
+"1196","R_26my3D9A35oCzHU","burnside",7
+"1197","R_1FzDc09xCGNOXV7","15th and ainsworth",5
+"1198","R_YaDJw59GkOfmau5","NE Sandy and NE 72nd",4
+"1199","R_28ZDoYBOOmQ5IEZ","eagle creek and 36 2nd Ave",30
+"1200","R_1imOpMqQC1qkMG0","broadway and 33rd",5
+"1201","R_3JzoVkBcNKGgdW9","NE Halsey and Fairview Parkway",18
+"1202","R_2rTn0WM9L3OPdL3","82nd Ave & N.E. Halsey",10
+"1203","R_2ckiQBLjmqeJdVP","Broadway mt view road",30
+"1204","R_1lmXwAfkGI0rB6b","Portsmouth and Lombard",7
+"1205","R_1JIx6pKQgMAI9r8","division st and kelly ave",-7
+"1206","R_bEfWCGaPKDQVarD","Salem",30
+"1207","R_25X7sfLFglvTYgp","sw broadway",0
+"1208","R_XXk0DZrtVfToCOJ","Ne prescott and ne sandy blvd",5
+"1209","R_cNoizPbo69OFlZv","Park",13
+"1210","R_1LRQoFmClFxvzXJ","N Fessenden and N Fairhaven",10
+"1211","R_ST71RgVD1jJzhcJ","Lombard",-7
+"1212","R_1P1xW67QcBPfjvr","sw 10th and mill",0
+"1213","R_pKRr1bqaH43rrTr","Nw skyline and Nw Burnside",-7
+"1214","R_3DdyUuOnxW6gBf0","Heiple rd and HW 224",30
+"1215","R_2vdoQv0no9ZIQLN","I live outside of Portland",30
+"1216","R_qIyEMpquHGkMImJ","SW 11th Ave and SW Gibbs St",2
+"1217","R_31tvF7RXp8KnH9e","SE Washington and 78th ave",6
+"1218","R_z38vg8aqP3TTrZD","122nd and sunnyside rd",17
+"1219","R_1CjuUHrLklX4TBP","N. Greeley & Sumner",5
+"1220","R_1OvKhg5rGFVLtyn","Quatama and Cornelius Pass",15
+"1221","R_2CxeaV8ODZW2RN2","Homes and Molalla (Oregon City)",20
+"1222","R_yPXMo9D2YlLs7kd","Don't live in the area",30
+"1223","R_80w4sclDfVHYV6F","Cesar Chavez and Hawthorne",5
+"1224","R_3FXoCvxSIcRnw0U","Interstate and Rosa Parks",5
+"1225","R_1H8dp2Uszn8MJNA","Terwilliger and Taylor’s Ferry",10
+"1226","R_1MPLpLHBnR7AMx1","6th and College",0
+"1227","R_2rUSQ3stwsrz3yW","SE Holgate Blvd and SE 99th Ave",10
+"1228","R_2Sqynx7LKFPJgO6","Grand and Butnside",4
+"1229","R_25TsAwpUCf9SZlc","Tualatin Valley Hwy and 24th",15
+"1230","R_p6KtkwQVl21Pwgp","SE 82nd and Sandy",9
+"1231","R_3QKJ2PM1KzSCDE6","SW Market St and SW 11th Ave",1
+"1232","R_dpArtYRhgPuYCvT","69th and Powell",5
+"1233","R_3kyXJV9qjb8PFQa","SE Swain Ave and SE River Rd",11
+"1234","R_3HUeqpLraeK9KZD","162nd Ave & NE Halsey St",15
+"1235","R_1dtwLqJlrLWr8UO","SW Broadway and Jackson",0
+"1236","R_11ZtJgk6c0Mytax","SE 20 and Salmon",5
+"1237","R_3MrEkKZt6YV745S","Glisan and nw 79th ave",6
+"1238","R_XvRqqUprANQ1DpL","broadway and mill",0
+"1239","R_1FCUhdRlCb45QTU","Sw 11th Ave, SW Mill St.",0
+"1240","R_1i23J3z19hnJhQX","NE 18th St and NE 112th Ave",17
+"1241","R_2rCnoFC4O68z9se","SW Park and SW Clay",1
+"1242","R_2QVOIIgmOj6ktuU","talbot and greenway",2
+"1243","R_1Do1pQhhb8xR3p6","SW Jackson and SW Jackson",0
+"1244","R_1IrWq1NS7Ib6rNo","Ne Alberta",4
+"1245","R_11b9g4GNdg9v2qQ","Ne Alberta and 15th",5
+"1246","R_3Jgby5xAyhQ65Vr","Kane and Powell",26
+"1247","R_2CCd0C6KOqKFekp","Main St",15
+"1248","R_2xxbayPgNuBfkdz","Glisan and 44th",5
+"1249","R_2B4meC3GUxUS2lH","I live in Vancouver, WA",13
+"1250","R_VIPvWUy3v2COKsx","sw  Broadway and SW Water AV.",3
+"1251","R_2BnRNwAxdbM9kec","SW 6th and Jackson",0
+"1252","R_2atzIpgfuJZ2UIE","NW 21st and Raleigh ST",3
+"1253","R_ykH51SKQjLRbSIp","S.E. Carlton and S.E. milwaukie",5
+"1254","R_ALgCWl94NLYDWHT","SE Clinton and 26th",4
+"1255","R_1q9A2Fl41ArHIva","SE POWELL AND FOSTER",10
+"1256","R_3lrXPfQsRLWGETd","72nd Ave and Carman Dr.",10
+"1257","R_OJuWVPnYlhLJjix","sw hall(ondine)",0
+"1258","R_1GNE1ZYr3N8A4p8","Unknown",0
+"1259","R_1Gi3sQwYljcU81P","N Mississippi  and Shaver",5
+"1260","R_2QWe3NHPV6OWxfE","135th and Walnut",13
+"1261","R_1LdJLyOUKdkxJGP","Baseline and 205th",21
+"1262","R_sZOKf4jRm1sh4Gt","10th and hoyt",2
+"1263","R_1E0wTqgEbDFQ370","Cornelius and Main",10
+"1264","R_1jO4FBa56dhGa18","NE Emerson and NE 19th",5
+"1265","R_3ltYUblTSCUNnrK","NE 42nd and Prescott (this is a weird question and makes me uncomfortable)",7
+"1266","R_1pJPnI1NqNirP3q","Interstate and lombard",7
+"1267","R_Ddk1ggtRc8fEioF","SE 40th and SE Division",7
+"1268","R_RzfclfvbvAToT4J","SE 152nd Dr and SE Sunnyside Rd",15
+"1269","R_reSuIPt3d0CjTcB","26th and Clackamas",3
+"1270","R_blogAYdD7GL0Vvr","SW Montgomery",0
+"1271","R_pMle2DjWwRs6a5z","Milwaukie",12
+"1272","R_AiD0TDkQLW62Z6V","Harrison St and 14th sw",1
+"1273","R_23et5jNXJ5YipNk","11th and clay",9
+"1274","R_WwEyJymjxb09xsd","Powell and 49th",6
+"1275","R_eOJquTsORKbHXnr","Belmont and SE 34th",2
+"1276","R_10Hk0QilkUNbvyG","SE 39th and Belmont",6
+"1277","R_2ZHpl9f9xdsjDB6","Haskins st",25
+"1278","R_33dtWurcmqhQUvF","SE 21st Powell",20
+"1279","R_3EzoRzEYKrYmVfP","SW 12th and SW Montgomery",0
+"1280","R_3Oe7VEmuG2XWVJn","w burnside and nw 23rd",2
+"1281","R_3ER9bPoPu4RMgZe","SW Canyon Rd and SW 110th Ave",6
+"1282","R_2WBRWzGBK0NVLNn","I live in Forest Grove.",30
+"1283","R_1dlUbF4bCgQrppM","SW Broadway and SW Jackson St",0
+"1284","R_OOwBWwJPxtZkQ1j","Canyon Creek Rd. and Ellingsen",17
+"1285","R_UDPrMci3d9imEYV","SW Gaines and SW Bond",1
+"1286","R_blLRGe4s86Guklr","elmonica",8
+"1287","R_xu3Fn8LhGkkg0St","SW 4th and Market St.",1
+"1288","R_3Pjhe5smGJBpOMF","NW Saltzman Rd and NW Thompson Rd",10
+"1289","R_1gtnX2O1vbvnbEm","122nd and Fremont st",12
+"1290","R_ABtdFyxVXjZvBxD","Nw 22nd and Everett",5
+"1291","R_2Bn73IhZaWkhyjK","SW Broadway",0
+"1292","R_3ikz7m1NtBOY3cg","Sw Cedar Hills",15
+"1293","R_1YexsjXj14KJRAJ","N/A (I no longer live in Portland)",-1
+"1294","R_SCdN6rB1rskqDrr","NE Glisan and NE 82nd",8
+"1295","R_1esJg7Gsdj7HiRt","W Burnside and SW St. Clair Ave.",5
+"1296","R_UJWyUswpUxZj3nX","NW Walker and NW Baseline",-1
+"1297","R_300Ef9i6nMb5hGo","SE Powell and 26th Avenue",11
+"1298","R_3DjNFB3B2LvbEnE","SE McLoughlin Blvd and SE Courtney Ave",8
+"1299","R_3HFibeKLd3klX1W","St James and 63d, Vancouver",-7
+"1300","R_Oeu9yCAxsGt2AbT","Farmington and 1845th",26
+"1301","R_3ncGco49QMLCVdz","McVey Ave. and State St.",10
+"1302","R_12zItkFIhf8WBL4","NE 16th & Sandy",3
+"1303","R_D6pz0oxqF1xnDXj","Columbia and N Fiske",10
+"1304","R_Usf4iwudmqLkdSp","SE Flavel and SE 82nd",8
+"1305","R_2rOYEY6F8qgeRfe","82nd",25
+"1306","R_2fxhGgnpNtUAxAR","NW McDaniel Rd. and NW Harding Ct.",9
+"1307","R_3JscEB4dc3oujqZ","SW Clay and SW 17th",1
+"1308","R_1ODhkRYCzyZMrBO","SW Broadway and SW Yamhill St",0
+"1309","R_1NDsC7DpAiLWFlx","SE 21st & Powell",3
+"1310","R_2TNxYgfKGQ1rOZa","SW montgomery and 12th st",0
+"1311","R_2Ep2pSNCgdfbvxb","San Francisco",30
+"1312","R_40zXPuLWuQoTzcR","SE 103rd and Foster",8
+"1313","R_Wr4PDpZSe45Tnix","sw broadway",0
+"1314","R_3J8lKR5ecoNIwV3","Hall and Olson road",13
+"1315","R_2bVqzesIUwMBCZu","5th and jackson",0
+"1316","R_2QuOPQJlvcOgu5c","181st and Glisan",20
+"1317","R_21hqPJ01zlbNPRr","Sandy blvd 158th",15
+"1318","R_1reLSlxHcpQfED1","SW Sexton Mountain Dr and SW Nora Rd",13
+"1319","R_3iOsEvPhKcQeAAM","Sw Clay and 11th",1
+"1320","R_2wSH5mlCEAGlGtd","Se Steven's Rd and se Sunnyside rd",15
+"1321","R_2RV1WdBIa3Kzs5g","SW Salmon",1
+"1322","R_9MlutuwiH6tx4vn","Burnside and 12th",2
+"1323","R_8988qjED86uXKRr","SE Foster and SE 92nd",9
+"1324","R_XGlMKHcR3LozFkJ","24th and Hawthorne",5
+"1325","R_1X6e8giiUuqt6dX","185th and Farmington",15
+"1326","R_qJdKMJItpgFyp7r","NE 60",8
+"1327","R_2BtH3wdcDUOOWNJ","Interstate",10
+"1328","R_bxx3sD9Nu5afKKd","SE 31st and SE Division",3
+"1329","R_6s1A3C4cRV5fd17","SE Olivewood St. And SE Alexander St.",20
+"1330","R_2asjGLnQb6umEoU","main st tigard",26
+"1331","R_2uJrEoYS9Qqz7iw","SW 3rd and Lincoln St",1
+"1332","R_3G6Whk3GBx3Isoj","beaverton-hillsdale highway",6
+"1333","R_2xSg7pOrsWwfR1M","96th Ave and Sandy Blvd.",8
+"1334","R_3g7sgGnMru5iTUM","Brookwood and Main",18
+"1335","R_24urp4mwvN3vuck","NE Poynter and NE 18th ave",-7
+"1336","R_2ar96pzLYh5QMdk","SW 11th & Jefferson",0
+"1337","R_dnD1ZMKnp7vjHzj","Lombard St and Martin Luther King Jr Blvd",20
+"1338","R_32UORiRb0MUa5cs","ur mom",7
+"1339","R_1d45w37pM3S9IFQ","SW Jackson St. and SW 6th ave.",-1
+"1340","R_1CD8xkvv4CxhOih","SE 82nd Ave and SE Causey Ave",25
+"1341","R_2WxaxUnQOYJmoDM","NE Mill Plain",20
+"1342","R_2CTGtKRHrmbwOkF","Eastman parkway/Powell",-1
+"1343","R_3fUKigqHRwPsXqZ","185th and Farmington",10
+"1344","R_8phDyA1rWwW2tTr","Willamette Dr. & Holly",30
+"1345","R_1qTWMI9ji7pz9dU","Stark and Troutdale rd",24
+"1346","R_6F44xwbiNTd5HMt","17th and holgate",10
+"1347","R_1Lv3fSmwzQozA8r","SE Division",10
+"1348","R_3DdL1YB4DI1W3kG","Se division and Se 82nd",30
+"1349","R_1OV7LGRR4MjNOyf","NE 6th and NE Shaver",5
+"1350","R_2WOSCYy8ApXvSGa","Park and sw 10th",0
+"1351","R_1n9F7fN9ejjAn7X","NW Evergreen Rd. and NE 15th Ave. (Hillsboro)",18
+"1352","R_1OQ7piux84BQ2pX","Eugene",30
+"1353","R_1g1Fae2HfnuRALs","SE Milwaukie and SE Ramona",4
+"1354","R_CfcgAplVqOJouSl","Meyers Rd and HWY 213",20
+"1355","R_PMd21m1vYL5SQP7","55 & stark",-1
+"1356","R_8BLsso9MD2ewBah","Dollar St and Nicole Dr",21
+"1357","R_2y8ZSoeZPr4N3ZI","NE 59th St. and 292nd Avenue. Camas, WA 98607",24
+"1358","R_D0sbm2X9rlafbep","135th and Scholls",15
+"1359","R_1i9bxXh4L2t2ElZ","Cornell Barnes",20
+"1360","R_1LneefP92V1guCM","Kerr Parkway and Jefferson Parkway",7
+"1361","R_32XBVnRYQN3nBOq","SW 182nd Ave and SW Granada Dr.",10
+"1362","R_3eeueSAtnRhnbPw","Sw Broadway and Clay",0
+"1363","R_12SvGP6NoAlu3Ou","Halsey and 79th",10
+"1364","R_3FJVdhbl1IZdZoy","Fessenden St",7
+"1365","R_3q84y3JJbjMsfJp","I live in salem",30
+"1366","R_d6Zcdp3zY8p0ysh","SW Jackson",0
+"1367","R_XM2g38tjMncfvRT","I-5 and Cap. Hill",-1
+"1368","R_2fjGh8LjMICtI5n","Canterbury and 99W",10
+"1369","R_1LjSHXLylOHyu1n","Sw Rosa Rd and Farmington",11
+"1370","R_1MQjxpf9bw7z0IR","Monroe and NE MLK",4
+"1371","R_2VJz4CeSUe4BuSC","SW Park",5
+"1372","R_tKCIO4hVtV6HCSt","sw clay st",1
+"1373","R_2TBLcR3OtTzKZJV","SW college and 6th",0
+"1374","R_11jT0nqJnnMlUyB","SW Canyon Rd",23
+"1375","R_vCwq2AGgNeupIK5","N Greeley and Ainsworth St",6
+"1376","R_1rreNRXO4JBq0bB","SW Broadway and SW 6th",0
+"1377","R_XTmuFDpopozD40F","N Rosa Parks and N Interstate Ave",7
+"1378","R_1nZzPZqhZ8eqECI","SW 2nd ave and Burnside St",2
+"1379","R_1C7t5NqSvvA0dLq","SE Cornelius Pass Rd and SW Baseline Rd",15
+"1380","R_1pxM2uDiKikdAMk","SE Powell and SE burnside",25
+"1381","R_2S1qJGSxD1fvnht","SE 27th & SE Belmont",3
+"1382","R_2yjELQMrdZ75Aeh","Sw Beef Bend Rd",10
+"1383","R_tPUzRM0JQPzjY3f","N/A",0
+"1384","R_3g5WMrQnGofoH2p","Kruse and Westlake",-1
+"1385","R_3gSkAnF7VBIy2N1","Why?",11
+"1386","R_WAo4NLaUUX95Ao9","122nd and Stark St.",-7
+"1387","R_2qabMJRFCcnoQyE","SW 170th Ave. and SW Sarala St.",13
+"1388","R_3erGNQNwp47Ghwl","NE Cornell st and NE 25th st",25
+"1389","R_26m1U3xr0sIykYu","nw 17th ave and nw Lovejoy street",5
+"1390","R_1gMi7lzph3QQP9V","Tualatin-Sherwood",26
+"1391","R_2X7I70Mh0Ax3cIW","NE 82nd & Russell",8
+"1392","R_2SesM0cDbSI2dkN","Sw Jenkins and 153rd",17
+"1393","R_2OPWISpA25i6irl","Glisan Street and Halsey",18
+"1394","R_2v6a1CKQv234CJt","1511 sw park",6
+"1395","R_OfgrcbZSBfFSEmZ","I live in Canby (online student)",-1
+"1396","R_vTU4pbeQ2RvBLt7","Se Division and 130th",10
+"1397","R_2y43SwBxpZGmgCy","Ridge Rd and Lower Highland",30
+"1398","R_2rkZNeHoJmVffvL","Cornel rd",8
+"1399","R_3eNQ1J1kSjNIAW5","Delta Park",26
+"1400","R_sk7i3yiT4AUPRYJ","Parkwood Dr.",25
+"1401","R_3fK62Rs1u1GYhiJ","Century and Cornell",15
+"1402","R_007vc7FklbxHIBP","Powell and Milwaukie",5
+"1403","R_28ZJYROoq84KZKC","SW Scholls Ferry & Murray",12
+"1404","R_1IXFqviTkmQA4ax","I live in Tualatin",-7
+"1405","R_27CjS2tWQGlgZQf","don't know",24
+"1406","R_3nDigfur8pEDiV1","NE 17TH AND NE MULTNOMAH",3
+"1407","R_1rwWts4zQzHlP5O","Duke 72",7
+"1408","R_3fk23eU81weWJZT","Sunnyside",18
+"1409","R_2ctEAKQvEeWcIXw","NW Kansas City RD and NW Seavey RD",27
+"1410","R_1rAMbJiXQl3GsFB","SW 6th and SW Hall",0
+"1411","R_2xWQBMsI3FkTRzw","scotch church rd and 10th",25
+"1412","R_dhgdHBQLBQkgflv","None",11
+"1413","R_3HHvFFeBy2KaxBL","NE Sandy & Glisan",4
+"1414","R_tK9pahEnTyZ5cn7","Sw Clay and SW 16th",1
+"1415","R_1jv4zekAPVCI433","185th and Baseline",11
+"1416","R_3fuF9IVmtHPjubK","The Dalles, Oregon",30
+"1417","R_2q97I8YucKYne71","Elmonica",15
+"1418","R_2Qz9Cpbuo2bTkxZ","N Greeley and N Rosa Parks",7
+"1419","R_1CdyUt4noWSXq9j","SW Hocken Ave",9
+"1420","R_UgRm9Ms3hYnWaCR","N Rosa parks and N interstate",7
+"1421","R_2Sl53SdZMeLg2I0","42069",20
+"1422","R_3DkdKLbrgErj8EK","SE 82nd and Foster",7
+"1423","R_a3Q2XcFCLfMLg7n","182nd & Powell Blvd",12
+"1424","R_1FFSD0cnwAUh0Hf","Killingsworth and Albina",10
+"1425","R_31T0Mu7kRyBGLdf","se 65 and flavel",7
+"1426","R_vkx37UoVyGtN1L3","SW Parkway Avenue",18
+"1427","R_2YWBPFJeyed2OI9","NE 20th Ave. and NE 139th St. (Vancouver, WA)",-1
+"1428","R_1LzppbjPmsSvxfk","Murray and scholls ferry",15
+"1429","R_1mUVUd4kClJtYrX","murray and beard",12
+"1430","R_3dSxq5lr8sJnpb5","SE Burnside and Grand",5
+"1431","R_3IQ1J6MWyuWHrgg","E Burnside and NE 79th AVE",-1
+"1432","R_2D8NrF9JASMP7Ol","SW Broadway",0
+"1433","R_1CJX6HzMWpz95bR","SE Woodstock and 52nd St",5
+"1434","R_RRL14fC3NGxmUYF","NW Front and 19th",3
+"1435","R_31Z2u56E2xqBtzq","185th and walker",-7
+"1436","R_segEiXeblIBTV2V","N Dwight and N McCoy",10
+"1437","R_2WPFW7AgT6IwuGG","SW 11th and Montgomery",5
+"1438","R_1j9Rz8zohIj3o3V","N Skidmore and N Mississippi",5
+"1439","R_Pt9LUCwKZIVJKV3","18th st and 112th ave, Vancouver, WA",20
+"1440","R_2P7HU3xG1GPksMv","Sw Farmington and 198th",24
+"1441","R_7NSSo2vI4iD8Rrz","broadway",10
+"1442","R_3m9UrOKpS52jb7a","Quatama and 205th, Hillsboro",13
+"1443","R_2bHqPuhKD260hYA","prefer not to answer this",5
+"1444","R_1gSCgW9fWaX7CF1","SW Scholls Ferry Rd & SW Horizon Blvd",13
+"1445","R_1DnwLBISd2QnsDQ","College and 5th",0
+"1446","R_3kwjHdv6fDb9I3u","19th Ave and Lovejoy",2
+"1447","R_1eF3rl9xGnvMkA6","185th",0
+"1448","R_3MLtsDCnhIDnRW8","SW Stephenson and SW 35th Ave",7
+"1449","R_1PRVjkMldWQeLs4","SW Broadway",0
+"1450","R_1Gxdj9azv9lLrAD","Clackamas Town Center",26
+"1451","R_3G9XsuMk6dQm9Xz","Portland, OR",0
+"1452","R_2V7xoYFFkUTtgI9","Burnside",5
+"1453","R_29oI4r1lbDoSEvi","SE Morrison and 24th",2
+"1454","R_1gHi4xscAPSOBuB","Columbia View Drive and 197",-1
+"1455","R_2zDafrY7JqEKoNz","NE Fremont and 42nd",6
+"1456","R_2QJMEce46CJlBGn","SW Capitol Highway and SW Barbur Boulevard",6
+"1457","R_6Qf9aNquHVOv3eV","SW 7th and Hwy 99 in Dundee, Oregon",30
+"1458","R_VQFFgAWnzMvqQKt","SW Murray Blvd. & SW Allen Blvd.",10
+"1459","R_3qPfS9EPZRIJo48","Wagner St.",10
+"1460","R_UtLbgVmVQwTsCZ3","SW Taylor St. and SW 14th Ave",1
+"1461","R_rcnkrtJk1VQcxwJ","There are no intersections near my home",30
+"1462","R_3n3qqWs6EeIMVFv","SE Webster Rd. and SE Thiessen Rd",10
+"1463","R_3qCAvtA7hLJo5DE","sw lane & sw bond",3
+"1464","R_3stwsk3ilgs5KYz","Hamilton and Barbur",3
+"1465","R_2ZBVbPW4MYIhk1u","148th and division",10
+"1466","R_Us6aAFT6h50NDMt","Highway 30 and Columbia",25
+"1467","R_2uZFceIwzLYDHL7","Powell and 242nd",-1
+"1468","R_dhWtSVvAeyHyXzH","Halsey and 102nd",12
+"1469","R_UJSyRgF7eyTChhf","Murray and Scholls",30
+"1470","R_W9Aoxf4tqm5cA2R","sandy and NE 20th",4
+"1471","R_1QAXb5ACulKaaqC","44th and holgate",5
+"1472","R_3QJKGjrJ2s36x85","I live in Aloha, OR",-7
+"1473","R_cZMZ1fLRfrK6YwN","stark and cleveland st",19
+"1474","R_3OkOAbNVc82DDMI","Mcloughlin and oak grove Blvd",15
+"1475","R_1luggWgezYG047l","SE Holgate and SE 17th",1
+"1476","R_2v04sRigsi5xOtj","SW Shattuck and SW Beaverton Hillsdale HWY",4
+"1477","R_27PZDC5eTtob0kY","NW SALTZMAN AND NW CORNELL",9
+"1478","R_DA9FwNXeeSYcyMF","SW Bald Peak Rd and SW Campbell Rd",19
+"1479","R_pKtQxxiVRdr90kh","se 122nd and foster",15
+"1480","R_33p6O56CZkMgG3t","99 & bull mountain",15
+"1481","R_1ZyjsmWjApvxWtX","SE Division St and SE 92nd Ave",10
+"1482","R_3h3eIXsM14epcch","SE 39th and Division",2
+"1483","R_1f2QfY34vwGfWFa","Cesar Chavez and Powell",9
+"1484","R_2VwoP1Q5GokX3Ni","99W",15
+"1485","R_210tfVl7yv55PdG","Sandy, Or",19
+"1486","R_2CJSLNxAVZYkH1u","view point terrace and barbur",2
+"1487","R_1lbNaC6zd1fGymM","Sw 15th and Towle (Gresham)",17
+"1488","R_1l466ChsTVHHGLN","N Cook and N Williams",3
+"1489","R_1N5fBZ1xh1cerpr","Boones Ferry",15
+"1490","R_1oImk1f9BCfohfJ","Sw Park Ave",5
+"1491","R_NUQpmfpI6vIwVxL","SE powell",12
+"1492","R_1JWpsMiyblAeSZ8","Newberg hwy and Meridian dr",30
+"1493","R_3KptNTNXtlrgFiJ","122nd",15
+"1494","R_3JIql1HF7pGSgbg","Durham and 99 SW",16
+"1495","R_1eCU4z75d4Gs3Y2","SW Barbur and SW Terwilliger",9
+"1496","R_3IQxRNttFbs7gvS","None - I live in Tualatin",13
+"1497","R_1OEaQZMtCn4p8qm","se powell and 28th",-7
+"1498","R_1M4YdKDLPZYZnSp","SW 11th and Alder",0
+"1499","R_3qPOJTkUpsnEqZl","SW Broadway and SW Jackson St",0
+"1500","R_R2KTz3iXSByBAiJ","sw harrison and fourth",1
+"1501","R_2thSfeRi5VcIfdM","SE Division",18
+"1502","R_OqZzHf09hYVlMv7","Murray and scholls",-7
+"1503","R_3dEMpaafMTlKRon","Vancouver, WA",20
+"1504","R_2q8KjZBdrqPg08E","82nd and Killingsworth",-7
+"1505","R_2sYhTK3mTVLwNQu","SW Montgomery St and SW 12th Ave",0
+"1506","R_VKejwon0iQ9Vlq9","Killingsworth and 46th",7
+"1507","R_3KOW5yDxslSbESI","SW jackson and SW broadway",-1
+"1508","R_22te3l6LJWqg8an","You do not need to know that",-7
+"1509","R_2B8Tfr1uXBdhy3u","10th and jefferson",0
+"1510","R_2WNKzCrnuYoIQub","Cornell and main",-7
+"1511","R_3efOOK7vvXqb2oP","SW Southridge Drive and Terwilliger Blvd",12
+"1512","R_1GN4EMjFdC4ZPCS","Salem, Oregon",30
+"1513","R_3lPpzuamceRvSAQ","SE Palmquist Rd and Mt Hood Highway",20
+"1514","R_1prs9mzkJVsOCzQ","SE 42nd AVE and SE DIVISION ST",15
+"1515","R_116owaTY2L7Ofua","Vista & Broadway",3
+"1516","R_3iDX1j1DGBbLYbq","11th Ave and Mill St",0
+"1517","R_1hMTEvLF5gn73Gs","SE King and SE 119th",16
+"1518","R_262UssuoKFfEEk6","SE foster rd",30
+"1519","R_3nxxf77U1KdFJAy","SE Belmont and 11th Ave.",2
+"1520","R_e3YNWCMVnkoa4H7","Southeast Division and 82nd Avenue",20
+"1521","R_7NyqHTEMTYCBMKl","Sandy",10
+"1522","R_3Pw5W6q5RhsvE6q","Mcloughlin and Oak Grove Boulevard",9
+"1523","R_2v7Fw9Dbw8aG7Si","Kelly Ave. and Corbett Ave.",2
+"1524","R_2U4MjEkbG2Dtony","Clay",0
+"1525","R_4N64xHRFEoq8v0l","Highway 212 and 224",20
+"1526","R_bf6Yt5i4vZvxTPP","SE Roberts and Hogan Rd",20
+"1527","R_2qt0nWJLZGJywO4","SW Market and SW 12th st.",0
+"1528","R_27pVGtMXCGfwjFU","SE 39th and powell",5
+"1529","R_2AET6X5YRJIPQf1","Capitol hw",-7
+"1530","R_pavBTz7vQMDhMpX","SW Lowell and Bond",2
+"1531","R_yF3Trqx5YlDmhr3","sw 12th and Market",0
+"1532","R_2BxNPemwSMdnB7z","sw macadam and nebraska",12
+"1533","R_3oSAiTpUXVnp9tQ","130th and 132nd Dr",10
+"1534","R_3KI9JrKhF3YX7Cv","SE Foster",7
+"1535","R_2aVaHCSMUqPxb2e","Geiger and Lafollett",26
+"1536","R_2E3ESwx7KzBt7C4","Ne 136th",20
+"1537","R_3dLGVxG099PDsfp","82nd and Fremont",11
+"1538","R_1dEaaTtSuwm2dWP","Main St in Springfield",-1
+"1539","R_4ZQKpZrqpBfSkSJ","Broadway and Jackson",0
+"1540","R_2QtHBvm4zU2ajjE","SW Broadway and Clay",1
+"1541","R_2bOAeIS02su7KPe","se tenino and se 63rd",23
+"1542","R_a5iIskodv5Ihwpb","170th and Jenkins",11
+"1543","R_2s5UFCAtrvhWkns","SE Sunnyside and SE 112nd",10
+"1544","R_3kjmtlU4RaWZB48","beef bend and 99W",14
+"1545","R_SQ20MxkT2pqDRuh","SW Hall and SW Greenway",11
+"1546","R_24tNNNsMBa6Gfhr","NE Oak Drive and Brookwood PKWY",14
+"1547","R_uyJrxeVhYlLntRf","Beavercreek / Loder Rd",-1
+"1548","R_2cvcf1TYSo3ro7n","SW Shattuck Rd. and SW Beaverton Hillsdale Hwy",8
+"1549","R_tYyJ1XRMRfEXAwp","montgomery and 12th street",0
+"1550","R_1ePoDwM33q1zBip","SE Powell and SE Milwaukee Ave",2
+"1551","R_3PMID5Dq3k68XeM","Killingsworth and MLK",13
+"1552","R_A0WEAjJq72vG7Sx","SW Barbur and Hanilton",3
+"1553","R_1loX2dWyKfRLQVt","Mississippi and Skidmore",5
+"1554","R_UAyLFBxHj5wQQ6J","99E and Courtney",8
+"1555","R_3ReIaYkNL5lawxS","82nd and Salmon",10
+"1556","R_3DoNUcTDOmKEp8f","Burnside and 113th",-1
+"1557","R_3MLGDMXhXdoN6YA","11 sw ave",2
+"1558","R_3lWxaYjjnWoKnpk","main street",21
+"1559","R_1KpTTl7n7PMW7y5","NW Laidlaw road and NW Bethany Blvd",11
+"1560","R_1eWBafcjClldTU3","8th and Franklin",10
+"1561","R_3kcAhFNXieDhKJi","DIvision and 82nd St",6
+"1562","R_3Qsua2aKs1rnbLb","52nd And Holgate St.",10
+"1563","R_2DNekVjGTVKN4sx","Center st and Lombard",7
+"1564","R_1NCSoxJm6pbOp5F","SE Park and 99E",-1
+"1565","R_3CTrWH8YyUz1L5l","Colton, Oregon",30
+"1566","R_3Rq1pnZjlAhEtbl","Brown Rd. and Wilsonville Rd.",23
+"1567","R_9ZyFPNeDfOEBQ5j","NE Halsey ST and NE 148th AVE",9
+"1568","R_b3lXWwADBaMnxBL","Wood Village and Coho Ct.",30
+"1569","R_9YK3qsErfSYu68p","SE holgate and SE Caesar Chavez",-7
+"1570","R_AAOVEj49FX0aUDf","SE DIVISION AND 63 AV",5
+"1571","R_1imPGNb2kAtylGF","5th and college",0
+"1572","R_20Zh7cOyt9EOmX5","185th and Farmington",10
+"1573","R_cviWRkbK3GMyqYh","Beaverton Hillsdale hwy and 35th",5
+"1574","R_x5yrMbaOF5rjgTD","170th and walker",7
+"1575","R_ymSIvjmFQWe3qJr","SW Clay and 16th",1
+"1576","R_331FxHKYRyq2hnU","SW broadway and college st",0
+"1577","R_xorAoTHAZeuN56h","23rd Thurman",2
+"1578","R_AsNjJgWFOfwhmDf","SE Couch and 12th",0
+"1579","R_1EgszlgK08ZrNgQ","82nd and stark",6
+"1580","R_3kjLc0J1DRtRMCJ","SW Broadway and SW Yamhill St.",0
+"1581","R_1lsB3CwZDVIaJ7Z","Webster Rd and SE Strawberry Lane",9
+"1582","R_24HO3I2AUWHxtuQ","Mollala and Barkley Hills Dr.",-7
+"1583","R_2fy2iFeEBynEJo3","6th and college",-7
+"1584","R_yKDfE4CDNWjaHi9","Aurora and Butteville",28
+"1585","R_1cV8KoW0DXSmu31","SW Jefferson & SW 10th",4
+"1586","R_6xNfWgxMtRfeBjz","SE 52nd and Woodstock Blvd",6
+"1587","R_3OizqMyurgIh6Wf","185th and Cornell",22
+"1588","R_BVOg6bbB6S3VBpD","boones Ferry",8
+"1589","R_1ilk60aa8gXTwXm","SW Market St. and SW 12th Avenue",0
+"1590","R_2pMONjG2KmtWLPa","Barnes road and Leahy Drive",6
+"1591","R_2aLZ8ogtYw4iHur","Cedar hills and celeste",11
+"1592","R_3kHEomkupqCT41Z","Pacific highway and Pacific Circle",26
+"1593","R_1exF1bWZReYSjSK","SW Broadway",0
+"1594","R_2t9URRrdasDnmlW","Burnside and 41st",5
+"1595","R_Pv4N4fas6DUBVzr","cascadia village dr & bornstead",30
+"1596","R_bQMhyTn2noToWNX","Rosa Parks and Mississippi Ave",4
+"1597","R_7VTumzW2VxiMsdr","99W and 124th",13
+"1598","R_123lZ5jDeUMPsJ1","Sw bonita sw hall blvd",15
+"1599","R_XpQkJoJP6FdbDmF","SE Caesar Chavez & SW Holgate",9
+"1600","R_2SjbMPmZWt9GiCf","psu campus",2
+"1601","R_2aRiyag0bJWccXv","SE Holgate Boulevard",6
+"1602","R_8AM9spotk0gg3Xr","main st",16
+"1603","R_23aymG9QBLC5R4x","NW Everett and 22nd",4
+"1604","R_QlxbocKZ8BSpN97","NW 32nd and Thurman Street",4
+"1605","R_2TzQRmIGxICUgNV","SW Park and Market",0
+"1606","R_31FYrzp5bLndu80","N Willamette and N Portsmouth",-7
+"1607","R_2TmKrLi6NHMwPOo","Scholls ferry rd",28
+"1608","R_3sdEzphAnmOM0EJ","broadway",-1
+"1609","R_2AZ7Zu7JVAPl3Hu","185th and Cornell",11
+"1610","R_Qg1Z5U0RLDITviN","sw broadway sw yamhill",0
+"1611","R_29nwZElHYBOKN6N","SE 122 and SE Stark",10
+"1612","R_31bVs12NGS1eb06","Se Reedway",-7
+"1613","R_3kMMfTvevImDVId","SW Farmington and 170th Ave.",10
+"1614","R_3plog5P8KPTn1v6","SE Stark and Chavez",5
+"1615","R_0uYDN6GpJNxlDwd","College St.",0
+"1616","R_12mCzkd3w84JtDe","Live in Salem",30
+"1617","R_Qd0Nd60OfmRF8dz","Sw park and sw market",0
+"1618","R_26gUlChohc0zqDZ","12th & burnside",6
+"1619","R_3J5fdwwfz9KF3VJ","SW Pacific Hwy & SW 124th Ave",13
+"1620","R_2VwM7SMus60rlwq","SW Broadway",12
+"1621","R_2CPSlKwA0ufwiAs","Helvetia and west union",17
+"1622","R_27J7LTbN5vP8Zw1","West Union and Springville Rd.",13
+"1623","R_23X1219cBn5zKzL","sw jackson and 6th",0
+"1624","R_2cpwHcHajS6LiCW","N farragut and N peninsular",-7
+"1625","R_2wawqAx8tWdG6L7","pacific highway",10
+"1626","R_3iJ9iKjAOlczC6H","Barrows and Scholls ferry",14
+"1627","R_1pVH3x5l3fURqDN","None, highway 211",30
+"1628","R_1hMdNWvtYNaP0VC","Quatama and Cornelius Pass",-7
+"1629","R_s7MkxjaMffYyNFL","Hall and Allen",9
+"1630","R_2ZTFg9xjRvGik4b","Clay/Broadway",15
+"1631","R_AnyLSxarFtJ7PVv","division and 60th",5
+"1632","R_2w44DSBjOt3Yunu","Glisan and NE 44th St",5
+"1633","R_3nfoY285ILpxHFL","10 and market",0
+"1634","R_1Cg4F9uNxHqBO8D","I-5 freeway and Lexington Exit in Kelso Washington",30
+"1635","R_3rTjd3AETx5LKyG","se regina and se king",15
+"1636","R_1EgHcOaysFokDML","SE Chavez and SE Woodstock",6
+"1637","R_1jZJUh4FP3ONe1Z","Gaarde and Walnut",15
+"1638","R_3Eu5HAIH5wCfJJH","SW Broadway and Jackson St.",0
+"1639","R_3k6Tt6IJ1xxMCN0","SE Powell",25
+"1640","R_2P7ElvLxXwetNmc","Division and 82nd",19
+"1641","R_1oo3V8ySlq4WvIr","20th and burnside",21
+"1642","R_Rwx2Xry9oauWYSt","Sw Barbur Blvd  and sw Capitol hwy",7
+"1643","R_5bBjZjagktgCTux","Ainsworth & Burrage",4
+"1644","R_2BhbhELwdEJOLAC","Powell and Ash st.",20
+"1645","R_3ehpMNTrXU9S6EW","NW Laidlaw & NW Bethany",12
+"1646","R_2wGG86Yn1Fx7k7b","92nd and foster",-7
+"1647","R_1LMODmtyY0AFBTz","SE 36th & Harvey",10
+"1648","R_2D6cqQ8HsCNjfEU","223rd stark",13
+"1649","R_3IS32zk9UlmkHnI","Cornelius Pass and Baseline",15
+"1650","R_264GqIJY5vBcfqp","SE stark and 30th",10
+"1651","R_2wiRu7Vwew4EyZH","SW Hall and SW Hunziker",10
+"1652","R_3pus3rfoFZl4qlT","SE Holgate St",4
+"1653","R_3EKLIon62JDoAbm","NE John Olsen and NW Cornell",12
+"1654","R_3fI46hHfSC0wRNo","SW 10th and SW Montgomery",0
+"1655","R_3pkUIEEXmBzmSIB","Interstate and Lombard",10
+"1656","R_2sdusJjCXzRcPFg","Brookwood Pkwy and TV Hwy",18
+"1657","R_QnQPJEfPhZvWjIZ","Not in Portland",30
+"1658","R_1dhO5u1DLayL6z9","SE Webster Rd and SE Clackamas Rd",12
+"1659","R_1P5wFesnj9b1GYi","Brookwood and Main Street in Hillsboro",20
+"1660","R_bI1l4DkrdZGmrsJ","Columbia bvld mears",26
+"1661","R_3MRPwBs5iNg8dSO","College and Broadway",0
+"1662","R_3Lcog5nPbMIlX6g","SW Martinazzi & Mohawk Northbound",12
+"1663","R_W1ykqdJPQ7eMMrD","SW Broadway and SW Jackson",0
+"1664","R_2YXn9QUpyfVvHyv","SE Holgate and 100th st.",7
+"1665","R_2pWwa990EzzObHz","6th and Jackson",0
+"1666","R_2s0c0J67PEAV1df","NW Cornell",11
+"1667","R_1esGmRtdCzqOOOz","Sandy, OR",30
+"1668","R_8zU5BYxBwQWZ3rz","Highway 212 and Foster",17
+"1669","R_BK6vKwzofBE8KCB","NE 15th & Jarrett",6
+"1670","R_3LYBzm5ZcqLqqQK","Sunset TC",11
+"1671","R_VW0hgVKnBIwifLz","Rock Rd. and 203rd Ave",-7
+"1672","R_sB5AaQ1etIisx3P","Live in Washington State",30
+"1673","R_OxokLofiTytIg13","SE Division street",8
+"1674","R_ZjXCqQ8CmNQf0yd","N Lombard and N Weyerhauser",11
+"1675","R_2X5MXD2d1XIh7NS","SW 10th Ave and Mill St",0
+"1676","R_1Ft8iOXYtAIwfnm","122nd and Glisan",10
+"1677","R_Rh88egMJk61bATn","SW Park and SW mill",0
+"1678","R_3OoyWlRxIFb5h8f","82nd and division",11
+"1679","R_UEGGQ9vQMmLS6sh","Interstate and Killingsworth",5
+"1680","R_2EgECnNs9TwTx0w","SE Stark and SE 122nd",10
+"1681","R_3P0F1kyR0wpEupr","4th and Harrison",0
+"1682","R_2ocxqUJQiKR9dTz","chase & orient",23
+"1683","R_2TofNj1Du32uhkS","Gresham, OR",17
+"1684","R_1I41gcPhzZG1TMA","SE Tacoma and SE 32nd",6
+"1685","R_2wbNc6AJxjyS4OT","SE 16th and SE Claybourne",4
+"1686","R_1OqPcdQ7FTSyEhI","SE Woodstock and 39th ave",5
+"1687","R_33vb0JGZEWh5plC","99N and Beef Bend",15
+"1688","R_DbMFFa8oXix1Ghz","SE 112th and Stark",7
+"1689","R_cZNaQNZWfgwrsFH","SE Powell & 92nd",10
+"1690","R_yVHsaetUHyw3vzj","foster and powell",10
+"1691","R_3DtkzCQvVhDdlnF","21 and Flanders",10
+"1692","R_8jGewB2JXCaF0aJ","sw 5th ave and broadway",0
+"1693","R_1Owd8dKdEQxOdsi","Clackamas Town Center",15
+"1694","R_XOqJI7kt1YrEBOh","SW 209th",30
+"1695","R_2q9MIgZKQ6lPkas","SW 45th and SW Vermont",5
+"1696","R_1hKeqYJDxScYSe6","Wilsonville",18
+"1697","R_1gATvmtleXiLdfl","NW Cornell Rd. and NW Murray",9
+"1698","R_33m4r8DCTkC3ixr","Tacoma Street",30
+"1699","R_2xFXoNnebbZfhMr","SW Broadway",0
+"1700","R_29h570fLcE8yGpW","Lombard and interstate",6
+"1701","R_2tMf05c7dASDIxS","NW Cedar Hills  Blvd and Barnes Rd",5
+"1702","R_10wxxGVKlsPPjYE","SW 192nd Ave and SW Rosa Rd",12
+"1703","R_2ZJRldUwySIjwho","SE 84th and Glenwood st.",25
+"1704","R_1n6ksjoGOrkPeVa","Powell and 181st",10
+"1705","R_1juCQx1kaXOm31n","82nd and Johnson creek",10
+"1706","R_1jDhmJ0j4PlyNzO","Moran and Skyline",26
+"1707","R_27NHjEWWaAiRk6w","Saltzman and Lorraine",8
+"1708","R_1DOvcFJj7TF6j9G","main and harrison",7
+"1709","R_1pDoLAb8mazU28n","NE Alberta and NE 20th",6
+"1710","R_2ONnxpqW3bh2BvM","SW Broadway and 5th Ave",10
+"1711","R_28TK8ArvtbsadwZ","N Interstate and N Killingsworth",6
+"1712","R_1IYSqY97zxWCneJ","122 burnside",12
+"1713","R_12nlCYxw1t10yHS","rosemont and gregory court",-1
+"1714","R_3hGANYZxI4NPdSN","SE Umatilla St. and SE 6th Ave",5
+"1715","R_5C0NH6JguI3sVWN","SE Mcloughlin and SE Naef (Milwaukee)",10
+"1716","R_e3t9zCV3XT39V9n","N. Harvard and N. Hodge",9
+"1717","R_3VEpiNdLwQdkLmN","SE Foster and 75th",6
+"1718","R_3lXicT7MZPpfusR","SE King Rd and SE Owen Dr",10
+"1719","R_Q0bEUwr2YBqXBMl","16th and Sandy",2
+"1720","R_2rwnpYJNx0CmhLB","SE Powell and 52nd",22
+"1721","R_1PYPdUorVZj5lts","SW Beaverton Hillsdale Hwy and SW 62nd",9
+"1722","R_1rk3tiRKBo4Jo0u","I live in Tualatin",14
+"1723","R_1QbfZXTDzB4bvIb","NW Cornell rd",7
+"1724","R_2dZnmjUgQq5CoQW","Market street",0
+"1725","R_3OquNnVXekpUkwl","View Acres Rd and Hill RD",18
+"1726","R_24enXiKnM4yCmK9","N Willis and Wayland",15
+"1727","R_bBFmRVCdRgdTdi9","Fremont and MLK",3
+"1728","R_5guqFC4UblRpuhP","Woodstock Blvd",5
+"1729","R_1C2wdmeujk2AlHk","SW Vermont and SW 45th",5
+"1730","R_2f6uwVB9zpZSr1E","NE 60th Ave. and Oregon St.",6
+"1731","R_3Gct2FQa47CixUL","Williams and Alberta",5
+"1732","R_1gj72kG6O1QAPK5","Broadway and NE 12",2
+"1733","R_3D8Eg5w1ShKMrwO","Rosa Parks and N Vancouver",6
+"1734","R_2cnhhRJQzPxmSR7","stark",18
+"1735","R_2VOXg7fGF1nHpQ7","SW Montgomery and SW 12th Ave",0
+"1736","R_1ib0fxXgdQStXn1","Cornell & 185th",10
+"1737","R_2tbu2cPalRKo5jE","SW Park and Market",1
+"1738","R_31EJjVexV6wVLoZ","209th and Carlin (Beaverton/ Aloha)",12
+"1739","R_3qkW16aYyg0xprM","Cesar E Chavez and Sandy",5
+"1740","R_2D1ZNFywNFqY7Xe","N Mckenna AVE and N Princeton ST",9
+"1741","R_1r1FATVyirdPba9","Cornelius Pass rd. and Quatama st.",12
+"1742","R_2VK05x0bzO32i44","SW Barnes RD and SW Cedar Hills BLVD",17
+"1743","R_tXMrHxu6sAH0H2p","Sw broadway and jackson",0
+"1744","R_PYC7w4OXcajcMj7","Hager and Oatfield",9
+"1745","R_86WkqnrxWxEkKRz","135th*shakespear",14
+"1746","R_0DvDph5unxalNNT","Kruseway and Carman Dr",10
+"1747","R_bCJatNGpUxBlOM1","Redland ave. / Molalla ave. Oregon CIty",26
+"1748","R_32Knbo63W51gxZ9","122nd and stark",-7
+"1749","R_3e1VAWSSwd4OIfj","SW Edgeway Dr and 185th Ave",12
+"1750","R_31XxErOvoB68Bq0","Bell and NE Wilkerson",-1
+"1751","R_9GNb6WBN0Br44sF","Se stark",12
+"1752","R_1lhk7Eu3bpDPzLj","Main st",30
+"1753","R_2eOwgIpdPRnbeOv","I live in Columbia County",22
+"1754","R_2ustv7z6jvmf8fs","11th and Clay",0
+"1755","R_ve4arXVfEYcKB6p","NW Connell Ave and NW Forest St in Hillsboro",19
+"1756","R_PRl2kcMOy9S6ZRn","SE Foster + I205",15
+"1757","R_1lAlOBEbjMFVRnU","SE 9th and SE Linn",5
+"1758","R_1fdV1oQ01hWa2Mj","Se 34th & Grant st",4
+"1759","R_2riGxoAKntRGG2N","SW 6th Ave and SW College St",0
+"1760","R_DDbcC5x3jQuJhVD","Morton Road and Division Street",-1
+"1761","R_suFOEzCvJYXGylP","SE Powell and E Burnside",14
+"1762","R_3qx1IRMt4ktdYh7","52nd and Woodstock",7
+"1763","R_3HHRJJBd66uxtWv","hillsboro, OR",26
+"1764","R_2RVQgH6Sf4OObVe","Scholls ferry and Murray",15
+"1765","R_3iRbL3DPEDXPTtK","SW Parkview Loop and SW Greenway Rd",5
+"1766","R_2bKlC0hmywYON3K","60th and Flavel",6
+"1767","R_3ERQ1ixsTmfJHKl","SE 82nd and SE stark",5
+"1768","R_3DthT0FHew2TQFC","broadway",0
+"1769","R_ylHgQA3Pi8AP4nD","montgomery and 12th",10
+"1770","R_33r0ywPCnUHZFCt","terwilliger and barbur",6
+"1771","R_2v07dbsplPMqXtJ","SE Cornelius Pass and W Baseline Rd",15
+"1772","R_3OpIZ71U08K0mDu","82nd and Gilson",6
+"1773","R_2P0Vbp2Kgyn4Hh6","SE Johnson Creek Blvd. & SE 32nd Ave",8
+"1774","R_Q4eiWsFDj37RDK9","NE Prescott",4
+"1775","R_3nwT8uG2FB841GQ","SE Park Ave and McLouglin Blvd",8
+"1776","R_PTA4mtgZwDRjJGV","SW Florence and SW 170th",15
+"1777","R_2TyIEBqAe3D4jAq","SW 6th Ave. and College St.",0
+"1778","R_2xW3Wi3xPVHjO8O","SE Powell and SE Cesar E Chavez blvd.",4
+"1779","R_3nNPlAdUVtdCMUe","SE Centurion and SE Barns",15
+"1780","R_32R3u3hQPDHVmsG","N St Louis/N Smith",10
+"1781","R_3M9zLceVBxfO03L","None",-1
+"1782","R_2YnPBaKjDxhaivK","ne sandy and ne fairview parkway",15
+"1783","R_2WCshJSRmCIBHiG","N Lombard and N Portsmouth",5
+"1784","R_2wb4bc0FMnU1hqw","N/A",15
+"1785","R_2XdgQkCt26B4Kde","3rd and Grant St. Hillsboro OR",18
+"1786","R_1QMWF1BrrDCnFWE","Not in Portland",-1
+"1787","R_PLL6oqaUyhRCfYJ","Jennings and Mcloughlin",11
+"1788","R_1Qz3xEgZh6nAK6i","SE 174th and SE Division St",14
+"1789","R_3EqHnbxmLODPhV7","SE Brookwood Ave. & E Main St.",17
+"1790","R_3QKN6Cm44Xziv8s","SW Park Ave and SW Montgomery St",0
+"1791","R_PYG4CTuCuSKUYj7","Farmington and Murrey",15
+"1792","R_3lPlcqdDE02osyi","SW 12th and Montgomery",0
+"1793","R_3FP38GVIWPQAHK2","Bethany Boulevard",13
+"1794","R_3373a0weyCmrTYb","102nd St. and Campaign St. NE",10
+"1795","R_1mjYCg1nbAq1N2M","SE Lexington and SE 15th",8
+"1796","R_bpx6SG9SFbUVvKV","Walker and 158th",10
+"1797","R_9Xldo2B5FUK6ZW1","1st and Harrison",1
+"1798","R_1IoS00zi9X2AG9P","NE 16th and NE Sandy",2
+"1799","R_2xCOIAyhreUPJ9P","NE Halsey and Fairview Prkwy",-1
+"1800","R_SZYiBESjvy2hUB3","5th and College",0
+"1801","R_3Nw9vWukongur8q","99E and Ivy, Canby",25
+"1802","R_1EfWPtUkixfaMfr","NE Cully Blvd",25
+"1803","R_3Gs2TTdJmTg9shU","NE 122nd and Shaver",10
+"1804","R_a5Wjs9T1L6Cc77z","Barbur Blvd and Capital Hwy",6
+"1805","R_2tL3xhcilT7Pd60","SW Beaverton Hillsdale hwy, SW Laurelwood Ave",5
+"1806","R_12gUoo1S5LJgZNZ","Proctor Blvd & Meinig Ave",30
+"1807","R_3ESkXz8TGGv94CA","Broadway and Jackson",1
+"1808","R_2sQMcPS9KdwooQD","SE Johnson Creek and 82nd",10
+"1809","R_2pRL7J7kit7xyef","99 W and Bull Mountain",15
+"1810","R_3jdIsTZIISmcYe2","182 and Powell",15
+"1811","R_2Cv87ut7zlzlJdo","NE Franklin St. Camas, WQ",16
+"1812","R_1dGiJNiE1Oy65GI","SE Stark and 122nd St",11
+"1813","R_3en0UX5IGLfuQkB","SE Roberts and SE Hogan",20
+"1814","R_339FYAgpVTb3htT","Lower Boones Ferry and SW Sagert",10
+"1815","R_33fmDpYjQLEunH3","SE 12th AVE and Baseline",19
+"1816","R_265VTVy4UTlJotM","Burnside and NE 102nd",15
+"1817","R_3lzvi5W4N5vE2Pm","42nd and killingsworth",10
+"1818","R_2WNFCylShZgqhwc","NE Division St",25
+"1819","R_3n7ramcxGUIR3Zf","Farmington & Murray Rd",15
+"1820","R_Uz719xTAUI7GrXr","NE Fremont and NE 63rd",7
+"1821","R_UWMcudhPn6KiCJz","Sunnyside Road and 172nd Avenue, Happy Valley, OR",15
+"1822","R_1KehJvtAHljiqfD","Springville and Kaiser Rd",15
+"1823","R_2DVbruUzwaQWC9o","SE Stark",17
+"1824","R_PtWP6ZmrxPGWWXf","NE 102nd & Glisan",-1
+"1825","R_3nuXnMa9Hm0FZEK","I-35 and I-20",-1
+"1826","R_2U2USwsDokCPzN9","WESTANNA ave and Lom",16
+"1827","R_21h4q7JsrpDfCcj","N Lombard and N Portsmouth",7
+"1828","R_22u0cQiXB85aKxV","NW Cornell Rd and 119th",30
+"1829","R_3lSpbCel1ZGyuQV","142nd and Sunnyside RD",20
+"1830","R_1rxieEWWca8Ww8h","6th Avenue",0
+"1831","R_2TtqWVn6CKeM2Gp","SE Linwood and SE King",10
+"1832","R_23ZBHqXs0PkEjgk","SE 92nd St. and SE Clatsop St.",8
+"1833","R_233T3C94cHgOK14","33rd and Broadway",-1
+"1834","R_0VzjmqIzAzRs9fr","SE Holgate Blvd and SE 17th Ave",3
+"1835","R_1ovER8XUIMgzWMK","I don't know",9
+"1836","R_1DoEZiU0qrxSOQ9","NW Cornell Rd and Saltzman",7
+"1837","R_2f6ubvgobkBs8rr","S Redland Rd. and S Ferguson Rd.",16
+"1838","R_27akSH29HqFyYm4","Williams and Alberta",5
+"1839","R_3J1SfhH2bRmTpkD","SW 170th Ave and SW Baseline Rd",8
+"1840","R_1f3BCVk2QIpG0wT","NE Broadway and NE 28th Ave",4
+"1841","R_2q8hq21TJETaoAq","Cornell Rd.  and Century Blvd.",14
+"1842","R_2R2hGFEUXNj5PXq","murray blvd",15
+"1843","R_2fIGjh9UydreGfj","Scholls Ferry and Hall",-7
+"1844","R_1n11dtEKJlSFrEc","158th and walker rd",10
+"1845","R_3kFakJbk7Dsskj5","Highway 26 and Highway 6",-1
+"1846","R_XKSmJhI0CE1YEJX","Park Ave and Market St",0
+"1847","R_1LNE8fZ3XpAdu5G","Sw broadway and sw Jackson",0
+"1848","R_AFmF3TIyeyUp3Tr","102nd & Glisan",12
+"1849","R_OkVKgT2eCMeHEs1","SE 60th and Belmont",15
+"1850","R_2rOw5YmsrGXQc8w","N/A",6
+"1851","R_d09R1ATHmrBxHIR","MLK and Morris",3
+"1852","R_1OP7zMTGUM6H4fT","Farmington and Murray",10
+"1853","R_1eyHuoQ2xcgOaQy","SW First Ave and 26",1
+"1854","R_2cCmXtuK2jNNuMN","Burnside and Couch",2
+"1855","R_2sXuZqTKqW5TuG1","Laidlaw Rd and Bethany Blvd",15
+"1856","R_3dLgiEEqQARlgg4","NW 10th and Lovejoy",2
+"1857","R_2vhTp4x0JHWE6M1","foster and 92",8
+"1858","R_2V22lv78nsm5TCL","Scholls Ferry and Beaverton-Hillsdale Highway",7
+"1859","R_2rBYkWHhFam0hba","Bethany area (near beaverton)",10
+"1860","R_3erUkHOtJucXvio","N.willamette and Rosa Parks",8
+"1861","R_2y7QN8POqqmp6Qm","NE 134th & NE 72nd (I live in Vancouver, WA)",-1
+"1862","R_12cpM4EmxKhymE6","No idea but it's in SE",25
+"1863","R_2bNVXQWUG0UkmVo","SW Farmington and SW 160th",11
+"1864","R_3fBRjHmc3ggLIuN","SE POWELL & 39",5
+"1865","R_2B3bvL53qaOcm4W","Fremont and MLK",6
+"1866","R_1eEn6iE4udDOWHg","Se harrison & 32nd",5
+"1867","R_1q9s9hL95mklteu","Broadway and Jackson",0

@@ -1,0 +1,425 @@
+---
+title: "Data Cleaning"
+author: "Mike McQueen"
+date: "3/23/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+```{r load packages}
+
+#Load Packages
+library(tidyverse)
+library(haven)
+library(labelled)
+library(sjlabelled)
+library(sjmisc)
+library(dplyr)
+
+```
+
+```{r read data}
+
+draw <- read_spss("rawdata/raw_032320.sav")
+nrow(draw)
+
+#Get list of fields
+q_codes <- data.frame(labels = var_label(draw, unlist = TRUE))
+write.csv(q_codes, "q_codes.csv")
+
+```
+
+```{r filter out unfinished}
+d1 <- draw %>% 
+  filter(Progress == 100) #only use 100% completed
+
+nrow(d1)
+```
+
+```{r Section 1: Current Commute fix coding and labels}
+
+#Q3 How are you affiliated with Portland State University?
+d2 <-  d1 %>%
+  mutate_at(.vars = vars(Q3_2:Q3_9), .funs = ~ifelse(is.na(Q3_2) & is.na(Q3_3) & is.na(Q3_4) & is.na(Q3_6) & is.na(Q3_7) & is.na(Q3_9), -7, .)) %>%  #This finds when there is no value for any choice in Q3 and indicates "Refused" (-7) for column Q3_2 only
+  replace_na(Q3_2:Q3_9, value = 0) %>%  #Make dummy coded, change remaining NA's to 0
+  mutate_at(.vars = vars(Q3_3:Q3_9), .funs = ~ifelse(Q3_2 == -7, -7, .)) %>%   #This fills in "Refused" (-7) for columns Q3_3:Q3_9 if -7 was put into Q3_2
+  copy_labels(draw %>% select(Q3_2:Q3_9)) %>%   #Restore the original labels for the updated variables
+  add_labels(Q3_2:Q3_9, labels = c(`Refused` = -7)) #Add the "Refused" (-7) label to all updated variables
+
+#Q5 How many days per week do you normally come to PSU?
+d3 <- d2 %>%
+  mutate(Q5 = recode(.$Q5, `1` = 0, `9` = 1, `10` = 2, `11` = 3, `12` = 4, `13` = 5, `14` = 6, `15` = 7)) %>% #Convert erroneous values to values 0 to 7
+  mutate(Q5 = remove_val_labels(.$Q5)) %>%  #Remove the old labels
+  mutate(Q5 = ifelse(is.na(.$Q5), -7,.$Q5)) %>% #Convert NA's to "Refused" (-7)
+  add_labels(Q5, labels = c(`Refused` = -7)) %>%  #Add the "Refused" (-7) label
+  set_variable_labels(Q5 = var_label(d2$Q5)) #Put the variable label back
+
+
+#Q6 What is your primary means of transportation to PSU? Please select the mode you take most frequently or for the longest part of your journey.
+d4 <- d3 %>% 
+  mutate(Q6 = ifelse(is.na(.$Q6) & .$Q5 == 0, -1, .$Q6)) %>%  #If the person travels to PSU 0 days per week, set NA to "Appropriate skip" (-1)
+  mutate(Q6 = ifelse(is.na(.$Q6) & .$Q5 > 0, -7, .$Q6)) %>%  #If the person travels to PSU > 0 days per week, set NA to "Refused" (-7)
+  copy_labels(draw %>% select(Q6)) %>%   #Restore the original labels for the updated variables
+  add_labels(Q6, labels = c(`Refused` = -7, `Appropriate skip` = -1)) %>%  #Add the "Refused" (-7) label and "Appropriate Skip" (-1) label
+  set_variable_labels(Q6 = var_label(d3$Q6)) #Put the variable label back
+
+
+#Q7_4 How far do you live from campus (approximately)? - Miles from campus
+d5 <- d4 %>% 
+  mutate(Q7_4 = ifelse(is.na(.$Q7_4) & .$Q5 == 0, -1, .$Q7_4)) %>% #If the person travels to PSU 0 days per week, set NA to "Appropriate skip" (-1)
+  mutate(Q7_4 = ifelse(is.na(.$Q7_4) & .$Q5 > 0, -7, .$Q7_4)) %>%   #If the person travels to PSU > 0 days per week, set NA to "Refused" (-7)
+  mutate(Q7_4 = remove_val_labels(Q7_4)) %>% 
+  add_labels(Q7_4, labels = c(`Refused` = -7, `Appropriate skip` = -1)) %>%  #Add the "Refused" (-7) label and "Appropriate Skip" (-1) label
+  set_variable_labels(Q7_4 = var_label(d4$Q7_4)) #Put the variable label back
+
+
+#Q8 How important are each of the following issues in choosing your means of transportation to PSU?
+d6 <- d5 %>% 
+  mutate_at(.vars = vars(Q8_1:Q8_15), .funs = ~ifelse(is.na(.) & d5$Q5 == 0, -1, .)) %>%  #If the person travels to PSU 0 days per week, set NA to "Appropriate skip" (-1)
+  mutate_at(.vars = vars(Q8_1:Q8_15), .funs = ~ifelse(is.na(.) & d5$Q5 > 0, -7, .)) %>%    #If the person travels to PSU > 0 days per week, set NA to "Refused" (-7)
+  mutate_at(.vars = vars(Q8_1:Q8_15), .funs = ~recode(., `11` = 1, `12` = 2, `13` = 3, `14` = 4, `15` = 5)) %>%   #Convert valid values to 1:5
+  copy_labels(draw %>% select(Q8_1:Q8_15)) %>%  #Restore the original labels for the updated variables
+  mutate_at(.vars = vars(Q8_1:Q8_15), .funs = ~set_labels(., labels = c(`Refused` = -7, `Appropriate skip` = -1, `Not at all important` = 1, `Slightly important` = 2, ` Moderately important` = 3, `Very important` = 4, `Extremely important` = 5)))    #Add the value labels back in, including the missing value labels
+
+```
+
+```{r Section 2: Transportation Mode Options, Personal Car}
+#Q11 Do you have a driver's license?
+d7 <- d6 %>% 
+  replace_na(Q11, value = -7) %>% #No skip logic, all NAs are refused. Replace here.
+  mutate(Q11 = recode(.$Q11, `1` = 1, `2` = 0)) %>%   #Code to 0s and 1s (originall yes was 1 and no was 2)
+  copy_labels(draw %>% select(Q11)) %>% #Restore the original labels for the updated variable
+  mutate(Q11 = set_labels(.$Q11, labels = c(`Refused` = -7, `No` = 0, `Yes` = 1))) #Add the value labels back in, including the missing value label
+
+
+#Q12 Do you have access to a personal car (car, truck, etc.) that you can use for your trip to PSU (either as a driver or a passenger)?
+d8 <- d7 %>% 
+  replace_na(Q12, value = -7) %>% #No skip logic, all NAs are refused. Replace here.
+  mutate(Q12 = recode(.$Q12, `1` = 1, `2` = 0)) %>%   #Code to 0s and 1s (originall yes was 1 and no was 2)
+  copy_labels(draw %>% select(Q12)) %>% #Restore the original labels for the updated variable
+  mutate(Q12 = set_labels(.$Q12, labels = c(`Refused` = -7, `No` = 0, `Yes` = 1))) #Add the value labels back in, including the missing value label
+
+#Q13 Think about your experience with personal cars. How many one-way trips did you take using a personal car (as a driver or passenger) in the last 7 days?
+d9 <- d8 %>% 
+  replace_na(Q13, value = -7) %>%  #No skip logic, all NAs are refused. Replace here.
+  mutate(Q13 = add_labels(.$Q13, labels = c(`Refused` = -7))) #Add the missing value label
+
+
+#Q14 What prevents you from driving more often? (Select all that apply)
+d10 <- d9 %>% 
+  mutate_at(.vars = vars(Q14_2:Q14_7), .funs = ~ifelse(is.na(Q14_2) & is.na(Q14_6) & is.na(Q14_4) & is.na(Q14_9) & is.na(Q14_11) & is.na(Q14_12) & is.na(Q14_13) & is.na(Q14_14) & is.na(Q14_15) & is.na(Q14_7), -7, .)) %>%  #This finds when there is no value for any choice in Q3 and indicates "Refused" (-7) for column Q14_2 only
+  replace_na(Q14_2:Q14_7, value = 0) %>%  #Make dummy coded, change remaining NA's to 0
+  mutate_at(.vars = vars(Q14_2:Q14_7), .funs = ~ifelse(Q14_2 == -7, -7, .)) %>%   #This fills in "Refused" (-7) for columns Q14_2:Q14_7 if -7 was put into Q14_2
+  copy_labels(draw %>% select(Q14_2:Q14_7)) %>%  #Restore the original labels for the updated variables
+  add_labels(Q14_2:Q14_7, labels = c(`Refused` = -7)) #Add the "Refused" (-7) label to all updated variables
+
+
+#Q15 Please indicate to what extent you agree or disagree with the following statements:
+d11 <- d10 %>% 
+  replace_na(Q15_1:Q15_8, value = -7) %>%  #No skip logic, all NAs are refused. Replace here.
+  copy_labels(draw %>% select(Q15_1:Q15_8)) %>%   #Restore the original labels for the updated variables
+  add_labels(Q15_1:Q15_8, labels = c(`Refused` = -7)) #Add the "Refused" (-7) label to all updated variables
+
+```
+
+``` {r Section 2: Transportation Mode Options, Personal Bike}
+
+#Q17 Think about your experience with riding a personal bikes. How many one-way trips did you take using a personal bike in the last 7 days?
+d12 <- d11 %>% 
+  replace_na(Q17, value = -7) %>%  #No skip logic, all NAs are refused. Replace here.
+  mutate(Q17 = add_labels(.$Q17, labels = c(`Refused` = -7))) #Add the missing value label
+
+
+#Q19 What personal reasons prevent you from biking more frequently?
+d13 <- d12 %>% 
+  mutate_at(.vars = vars(Q19_1:Q19_7), .funs = ~ifelse(is.na(Q19_1) & is.na(Q19_2) & is.na(Q19_3) & is.na(Q19_4) & is.na(Q19_8) & is.na(Q19_9) & is.na(Q19_11) & is.na(Q19_12) & is.na(Q19_13) & is.na(Q19_15) & is.na(Q19_16) & is.na(Q19_14) & is.na(Q19_7), -7, .)) %>%    #This finds when there is no value for any choice in Q3 and indicates "Refused" (-7) for column Q19_1 only
+  replace_na(Q19_1:Q19_7, value = 0) %>%  #Make dummy coded, change remaining NA's to 0
+  mutate_at(.vars = vars(Q19_2:Q19_7), .funs = ~ifelse(Q19_1 == -7, -7, .)) %>%   #This fills in "Refused" (-7) for columns Q19_2:Q19_7 if -7 was put into Q19_1
+  copy_labels(draw %>% select(Q19_1:Q19_7)) %>%  #Restore the original labels for the updated variables
+  add_labels(Q19_1:Q19_7, labels = c(`Refused` = -7)) #Add the "Refused" (-7) label to all updated variables
+
+
+#Q20 How does the neighborhood where you live prevent you from biking more frequently?
+d14 <- d13 %>% 
+  mutate_at(.vars = vars(Q20_2:Q20_7), .funs = ~ifelse(is.na(Q20_2) & is.na(Q20_3) & is.na(Q20_4) & is.na(Q20_5) & is.na(Q20_6) & is.na(Q20_8) & is.na(Q20_9) & is.na(Q20_10) & is.na(Q20_7), -7, .)) %>%    #This finds when there is no value for any choice in Q3 and indicates "Refused" (-7) for column Q19_1 only
+  replace_na(Q20_2:Q20_7, value = 0) %>%  #Make dummy coded, change remaining NA's to 0
+  mutate_at(.vars = vars(Q20_3:Q20_7), .funs = ~ifelse(Q20_2 == -7, -7, .)) %>%   #This fills in "Refused" (-7) for columns Q19_2:Q19_7 if -7 was put into Q19_1
+  copy_labels(draw %>% select(Q20_2:Q20_7)) %>%  #Restore the original labels for the updated variables
+  add_labels(Q20_2:Q20_7, labels = c(`Refused` = -7)) #Add the "Refused" (-7) label to all updated variables
+
+#Q21 Please indicate to what extent you agree or disagree with the following statements
+d15 <- d14 %>% 
+  replace_na(Q21_1:Q21_10, value = -7) %>%  #No skip logic, all NAs are refused. Replace here.
+  copy_labels(draw %>% select(Q21_1:Q21_10)) %>%   #Restore the original labels for the updated variables
+  add_labels(Q21_1:Q21_10, labels = c(`Refused` = -7)) #Add the "Refused" (-7) label to all updated variables  
+
+```
+
+``` {r Section 2: Transportation Mode Options, e-scooter}
+
+#Q23 Think about your experience with e-scooters. How many one-way trips did you take using an e-scooter in the last 7 days?
+d16 <- d15 %>% 
+  replace_na(Q23, value = -7) %>%  #No skip logic, all NAs are refused. Replace here.
+  mutate(Q23 = add_labels(.$Q23, labels = c(`Refused` = -7))) #Add the missing value label
+
+
+#Q25 What personal reasons prevent you from using an e-scooter more frequently?
+d17 <- d16 %>% 
+  mutate_at(.vars = vars(Q25_1:Q25_7), .funs = ~ifelse(is.na(Q25_1) & is.na(Q25_2) & is.na(Q25_3) & is.na(Q25_4) & is.na(Q25_5) & is.na(Q25_6) & is.na(Q25_8) & is.na(Q25_9) & is.na(Q25_11) & is.na(Q25_10) & is.na(Q25_12) & is.na(Q25_7), -7, .)) %>%     #This finds when there is no value for any choice in Q25 and indicates "Refused" (-7) for column Q25_1 only
+  replace_na(Q25_1:Q25_7, value = 0) %>%  #Make dummy coded, change remaining NA's to 0
+  mutate_at(.vars = vars(Q25_2:Q25_7), .funs = ~ifelse(Q25_1 == -7, -7, .)) %>%   #This fills in "Refused" (-7) for columns Q19_2:Q19_7 if -7 was put into Q19_1
+  copy_labels(draw %>% select(Q25_1:Q25_7)) %>%  #Restore the original labels for the updated variables
+  add_labels(Q25_1:Q25_7, labels = c(`Refused` = -7)) #Add the "Refused" (-7) label to all updated variables
+
+
+#Q26 How does the neighborhood where you live prevent you from using an e-scooter more frequently?
+d18 <- d17 %>% 
+  mutate_at(.vars = vars(Q26_2:Q26_7), .funs = ~ifelse(is.na(Q26_2) & is.na(Q26_9) & is.na(Q26_3) & is.na(Q26_4) & is.na(Q26_5) & is.na(Q26_6) & is.na(Q26_8) & is.na(Q26_7), -7, .)) %>%     #This finds when there is no value for any choice in Q26 and indicates "Refused" (-7) for column Q26_2 only
+  replace_na(Q26_2:Q26_7, value = 0) %>%  #Make dummy coded, change remaining NA's to 0
+  mutate_at(.vars = vars(Q26_9:Q26_7), .funs = ~ifelse(Q26_2 == -7, -7, .)) %>%   #This fills in "Refused" (-7) for columns Q19_2:Q19_7 if -7 was put into Q19_1
+  copy_labels(draw %>% select(Q26_2:Q26_7)) %>%  #Restore the original labels for the updated variables
+  add_labels(Q26_2:Q26_7, labels = c(`Refused` = -7)) #Add the "Refused" (-7) label to all updated variables
+
+
+#Q27 Do you have an e-scooter application installed on your phone?
+d19 <- d18 %>%   
+  replace_na(Q27, value = -7) %>% #No skip logic, all NAs are refused. Replace here.
+  mutate(Q27 = recode(.$Q27, `1` = 1, `2` = 0)) %>%   #Code to 0s and 1s (originall yes was 1 and no was 2)
+  copy_labels(draw %>% select(Q27)) %>% #Restore the original labels for the updated variable
+  mutate(Q27 = set_labels(.$Q27, labels = c(`Refused` = -7, `No` = 0, `Yes` = 1))) #Add the value labels back in, including the missing value label
+  
+
+#Q28 Please indicate to what extent you agree or disagree with the following statements
+d20 <- d19 %>% 
+  replace_na(Q28_1:Q28_11, value = -7) %>%  #No skip logic, all NAs are refused. Replace here.
+  mutate_at(.vars = vars(Q28_1:Q28_11), .funs = ~recode(., `18` = 1, `19` = 2, `20` = 3, `21` = 4, `22` = 5)) %>%   #Convert valid values to 1:5
+  copy_labels(draw %>% select(Q28_1:Q28_11)) %>%   #Restore the original labels for the updated variables
+  set_labels(Q28_1:Q28_11, labels = c(`Refused` = -7, `Strongly disagree` = 1, `Disagree` = 2, `Neutral` = 3, `Agree` = 4, `Strongly agree` = 5)) #Add the value labels back in, including the missing value label
+```
+
+``` {r Section 2: Transportation Mode Options, MAX}
+
+#Q30 Think about your experience with MAX. How many one-way trips did you take using MAX in the last 7 days?
+d21 <- d20 %>% 
+  replace_na(Q30, value = -7) %>%  #No skip logic, all NAs are refused. Replace here.
+  mutate(Q30 = add_labels(.$Q30, labels = c(`Refused` = -7))) #Add the missing value label
+
+
+#Q32 What personal reasons prevent you from riding MAX more frequently?
+d22 <- d21 %>% 
+  mutate_at(.vars = vars(Q32_1:Q32_7), .funs = ~ifelse(is.na(Q32_1) & is.na(Q32_2) & is.na(Q32_3) & is.na(Q32_4) & is.na(Q32_5) & is.na(Q32_6) & is.na(Q32_8) & is.na(Q32_9) & is.na(Q32_10) & is.na(Q32_11) & is.na(Q32_12) & is.na(Q32_7), -7, .)) %>%     #This finds when there is no value for any choice in Q25 and indicates "Refused" (-7) for column Q32_1 only
+  replace_na(Q32_1:Q32_7, value = 0) %>%  #Make dummy coded, change remaining NA's to 0
+  mutate_at(.vars = vars(Q32_2:Q32_7), .funs = ~ifelse(Q32_1 == -7, -7, .)) %>%   #This fills in "Refused" (-7) for columns Q32_2:Q32_7 if -7 was put into Q32_1
+  copy_labels(draw %>% select(Q32_1:Q32_7)) %>%  #Restore the original labels for the updated variables
+  add_labels(Q32_1:Q32_7, labels = c(`Refused` = -7)) #Add the "Refused" (-7) label to all updated variables
+
+#Q33 How does the neighborhood where you live prevent you from riding MAX more frequently?
+d23 <- d22 %>%   
+  mutate_at(.vars = vars(Q33_2:Q33_7), .funs = ~ifelse(is.na(Q33_2) & is.na(Q33_3) & is.na(Q33_8) & is.na(Q33_7), -7, .)) %>%     #This finds when there is no value for any choice in Q33 and indicates "Refused" (-7) for column Q26_2 only
+  replace_na(Q33_2:Q33_7, value = 0) %>%  #Make dummy coded, change remaining NA's to 0
+  mutate_at(.vars = vars(Q33_3:Q33_7), .funs = ~ifelse(Q33_2 == -7, -7, .)) %>%   #This fills in "Refused" (-7) for columns Q33_3:Q33_7 if -7 was put into Q33_2
+  copy_labels(draw %>% select(Q33_2:Q33_7)) %>%  #Restore the original labels for the updated variables
+  add_labels(Q33_2:Q33_7, labels = c(`Refused` = -7)) #Add the "Refused" (-7) label to all updated variables
+
+#Q34 Please indicate to what extent you agree or disagree with the following statements
+d24 <- d23 %>% 
+  replace_na(Q34_1:Q34_11, value = -7) %>%  #No skip logic, all NAs are refused. Replace here.
+  copy_labels(draw %>% select(Q34_1:Q34_11)) %>%   #Restore the original labels for the updated variables
+  add_labels(Q34_1:Q34_11, labels = c(`Refused` = -7)) #Add the "Refused" (-7) label to all updated variables
+```
+
+``` {r Section 2: Propensity for Mode Change}
+
+#Q35 If your primary means of transportation to PSU was unavailable, how likely is it that you would choose to take one of the following modes to PSU?
+d25 <- d24 %>% 
+  mutate(Q35_1 = ifelse(is.na(.$Q35_1) & .$Q6 == 3 | is.na(.$Q35_1) & .$Q6 == 8 | .$Q6 == -1, -1, .$Q35_1)) %>%   #If the person's primary mode is already Drive alone or Carpool, or their response was appropriate skip for Q6 set NA to "Appropriate skip" (-1)
+  mutate(Q35_1 = ifelse(is.na(.$Q35_1), -7, .$Q35_1)) %>%   #If the person otherwise refused to answer, put "Refused" (-7)
+  mutate(Q35_2 = ifelse(is.na(.$Q35_2) & .$Q6 == 2 | .$Q6 == -1, -1, .$Q35_2)) %>%   #If the person's primary mode is already Bike (bike that I own), or their response was appropriate skip for Q6 set NA to "Appropriate skip" (-1)
+  mutate(Q35_2 = ifelse(is.na(.$Q35_2), -7, .$Q35_2)) %>%   #If the person otherwise refused to answer, put "Refused" (-7)
+  mutate(Q35_3 = ifelse(is.na(.$Q35_3) & .$Q6 == 7 | is.na(.$Q35_3) & .$Q6 == 10 | .$Q6 == -1, -1, .$Q35_3)) %>%   #If the person's primary mode is already Shared E-Scooter (Lime, Bolt, Skip, Bird) or Private E-Scooter (e-scooter I own), or their response was appropriate skip for Q6 set NA to "Appropriate skip" (-1)
+  mutate(Q35_3 = ifelse(is.na(.$Q35_3), -7, .$Q35_3)) %>%   #If the person otherwise refused to answer, put "Refused" (-7)
+  mutate(Q35_4 = ifelse(is.na(.$Q35_4) & .$Q6 == 5 | .$Q6 == -1, -1, .$Q35_4)) %>%   #If the person's primary mode is already MAX (Light Rail), or their response was appropriate skip for Q6 set NA to "Appropriate skip" (-1)
+  mutate(Q35_4 = ifelse(is.na(.$Q35_4), -7, .$Q35_4)) %>%    #If the person otherwise refused to answer, put "Refused" (-7)
+  copy_labels(draw %>% select(Q35_1:Q35_4)) %>%  #Get the variable labels back
+  add_labels(Q35_1:Q35_4, labels = c(`Refused` = -7, `Appropriate Skip` = -1)) #Add the missing value labels "Refused" (-7) and "Appropriate skip" (-1)
+```
+
+``` {r Section 3: Stated Preference}
+
+#Block 1 Q38 Stated preference set (set apart because codes are different from the rest)
+d26 <- d25 %>% 
+  mutate(Q38 = recode(.$Q38, `2` = 1, `34` = 2, `35` = 3)) %>%  #The codes for this question are messed up - these are verified correct though.
+  mutate(Q38 = ifelse(is.na(.$Q38) & is.na(.$Q39) & is.na(.$Q40) & is.na(.$Q41) & is.na(.$Q42) & is.na(.$Q42) & is.na(.$Q43) & is.na(.$Q44) & is.na(.$Q45) & is.na(.$Q46) & is.na(.$Q47) & is.na(.$Q48) & is.na(.$Q49) & is.na(.$Q50) & is.na(.$Q51) & is.na(.$Q52) & is.na(.$Q53) & is.na(.$Q54) & is.na(.$Q55) & is.na(.$Q56) & is.na(.$Q57) & is.na(.$Q58) & is.na(.$Q59) & is.na(.$Q60) & is.na(.$Q61), -1, .$Q38)) %>% #There were a few people that skipped this before I changed the skip logic to force everyone to take this (the people who did not travel to campus more than 0 days per week). Set those to `Appropriate Skip`
+  mutate(Q38 = ifelse(is.na(.$Q38) & is.na(.$Q39) & is.na(.$Q40) & is.na(.$Q41), -1, .$Q38)) %>% #If this respondent was not assigned this block, mark as "Appropriate skip"
+  mutate(Q38 = ifelse(is.na(.$Q38), -7, .$Q38)) %>% #Otherwise, set it to "Refused". This should not be possible due to forced response in Qualtrics.
+  set_variable_labels(Q38 = var_label(draw$Q38)) %>%  #Put the variable label back
+  set_labels(Q38, labels = c(`Refused` = -7, `Appropriate skip` = -1, `Personal Car` = 1, `Bike` = 2, `E-Scooter + Max` = 3)) #set new variable labels
+
+
+#Block 1 Q39-Q43
+d27 <- d26 %>% 
+  mutate_at(.vars = vars(Q39:Q43), .funs = ~ifelse(is.na(.) & Q38 == -1, -1, .)) %>%  #If Q38 was determined to be appropriate skip, then the rest in this block is as well
+  mutate_at(.vars = vars(Q39:Q43), .funs = ~ifelse(is.na(.), -7, .)) %>% #Otherwise, set it to "Refused". This should not be possible due to forced response in Qualtrics.
+  copy_labels(draw %>% select(Q39:Q43)) %>%  #Put the variable labels back
+  set_labels(Q39:Q43, labels = c(`Refused` = -7, `Appropriate skip` = -1, `Personal Car` = 1, `Bike` = 2, `E-Scooter + Max` = 3)) #set new variable labels
+
+
+#Block 2 Q44 - Q49
+d28 <- d27 %>% 
+  mutate_at(.vars = vars(Q44:Q49), .funs = ~ifelse(is.na(Q44) & is.na(Q45) & is.na(Q46) & is.na(Q47) & is.na(Q48) & is.na(Q49), -1, .)) %>%  #If all values in block are NA, set Q44 to "Appropriate Skip"
+  mutate_at(.vars = vars(Q45:Q49), .funs = ~ifelse(is.na(.) & Q44 == -1, -1, .)) %>%  #If Q44 was determined to be appropriate skip, then the rest in this block is as well
+  mutate_at(.vars = vars(Q44:Q49), .funs = ~ifelse(is.na(.), -7, .)) %>% #Otherwise, set it to "Refused". This should not be possible due to forced response in Qualtrics.
+  copy_labels(draw %>% select(Q44:Q49)) %>%  #Put the variable labels back
+  set_labels(Q44:Q49, labels = c(`Refused` = -7, `Appropriate skip` = -1, `Personal Car` = 1, `Bike` = 2, `E-Scooter + Max` = 3)) #set new variable labels
+
+
+#Block 3 Q50 - Q55
+d29 <- d28 %>% 
+  mutate_at(.vars = vars(Q50:Q55), .funs = ~ifelse(is.na(Q50) & is.na(Q51) & is.na(Q52) & is.na(Q53) & is.na(Q54) & is.na(Q55), -1, .)) %>%  #If all values in block are NA, set Q44 to "Appropriate Skip"
+  mutate_at(.vars = vars(Q51:Q55), .funs = ~ifelse(is.na(.) & Q50 == -1, -1, .)) %>%  #If Q50 was determined to be appropriate skip, then the rest in this block is as well
+  mutate_at(.vars = vars(Q50:Q55), .funs = ~ifelse(is.na(.), -7, .)) %>% #Otherwise, set it to "Refused". This should not be possible due to forced response in Qualtrics.
+  copy_labels(draw %>% select(Q50:Q55)) %>%  #Put the variable labels back
+  set_labels(Q50:Q55, labels = c(`Refused` = -7, `Appropriate skip` = -1, `Personal Car` = 1, `Bike` = 2, `E-Scooter + Max` = 3)) #set new variable labels
+
+
+#Block 4 Q56 - Q61
+d30 <- d29 %>% 
+  mutate_at(.vars = vars(Q56:Q61), .funs = ~ifelse(is.na(Q56) & is.na(Q57) & is.na(Q58) & is.na(Q59) & is.na(Q60) & is.na(Q61), -1, .)) %>%  #If all values in block are NA, set Q44 to "Appropriate Skip"
+  mutate_at(.vars = vars(Q57:Q61), .funs = ~ifelse(is.na(.) & Q56 == -1, -1, .)) %>%  #If Q56 was determined to be appropriate skip, then the rest in this block is as well
+  mutate_at(.vars = vars(Q56:Q61), .funs = ~ifelse(is.na(.), -7, .)) %>% #Otherwise, set it to "Refused". This should not be possible due to forced response in Qualtrics.
+  copy_labels(draw %>% select(Q56:Q61)) %>%  #Put the variable labels back
+  set_labels(Q56:Q61, labels = c(`Refused` = -7, `Appropriate skip` = -1, `Personal Car` = 1, `Bike` = 2, `E-Scooter + Max` = 3)) #set new variable labels
+```
+
+``` {r Section 4: Demographics}
+#Q63 Do you consider yourself (check all that apply)
+d31 <-  d30 %>%
+  mutate_at(.vars = vars(Q63_1:Q63_6), .funs = ~ifelse(is.na(Q63_1) & is.na(Q63_2) & is.na(Q63_3) & is.na(Q63_7) & is.na(Q63_8) & is.na(Q63_4) & is.na(Q63_5) & is.na(Q63_6), -7, .)) %>%  #This finds when there is no value for any choice in Q63 and indicates "Refused" (-7) for column Q63_1 only
+  replace_na(Q63_1:Q63_6, value = 0) %>%  #Make dummy coded, change remaining NA's to 0
+  mutate_at(.vars = vars(Q63_1:Q63_6), .funs = ~ifelse(Q63_1 == -7, -7, .)) %>%   #This fills in "Refused" (-7) for columns Q63_2:Q63_6 if -7 was put into Q63_1
+  copy_labels(draw %>% select(Q63_1:Q63_6)) %>%  #Restore the original labels for the updated variables
+  add_labels(Q63_1:Q63_6, labels = c(`Refused` = -7)) #Add the "Refused" (-7) label to all updated variables
+
+
+#Q64 What is your age?
+#Check to ensure no one is under 18
+print(d31$Q64[which(d31$Q64 < 18)])
+
+#None of these are valid ages under 18, so change to "Refused"
+d32 <- d31 %>% 
+  mutate(Q64 = ifelse(Q64 < 18, -7, Q64)) %>% #Convert the blanks and invalid numbers less than 18 to "Refused" (-7)
+  mutate(Q64 = as.numeric(Q64)) #Coerce the chars to numeric
+
+#Display how many NAs appeared from coersion
+sum(is.na(d32$Q64))
+
+#Convert those NAs to "Refused" because they put text into a question asking for a number
+d33 <- d32 %>% 
+  replace_na(Q64, value = -7) %>% 
+  set_variable_labels(Q64 = var_label(draw$Q64)) %>% #Add the var label back in
+  add_labels(Q64, labels = c(`Refused` = -7)) #Add the "Refused" (-7) missing label
+
+
+#Q65 What gender do you identify as?
+d34 <- d33 %>% 
+  replace_na(Q65, value = -7) %>%  #Convert the NAs to "Refused" (-7)
+  mutate(Q65 = recode(Q65, `5` = -7)) %>% 
+  copy_labels(draw %>% select(Q65)) %>%  #Restore the original labels for the updated variables
+  set_labels(Q65, labels = c(`Refused or Prefer not to answer` = -7, `Male` = 1, `Female` = 2, `Non-binary` = 3, `Other: (type response in box)` = 4)) #Add the missing value label and the other labels
+
+#Q66 Are you married or living with a partner?
+d35 <- d34 %>%   
+  replace_na(Q66, value = -7) %>% #No skip logic, all NAs are refused. Replace here.
+  mutate(Q66 = recode(.$Q66, `1` = 1, `2` = 0, `3` = -7)) %>%   #Code to 0s and 1s (original yes was 1 and no was 2)
+  copy_labels(draw %>% select(Q66)) %>% #Restore the original labels for the updated variable
+  set_labels(Q66, labels = c(`Refused or Prefer not to answer` = -7, `No` = 0, `Yes` = 1)) #Add the value labels back in, including the missing value label
+
+
+#Q67 How many children live with you that you are responsible for?
+d36 <- d35 %>% 
+  mutate(Q67 = recode(.$Q67, `1` = 0, `3` = 1, `4` = 2, `5` = 3, `6` = 4)) %>%   #Recode to more logical values
+  replace_na(Q67, value = -7) %>% #No skip logic, all NAs are refused. Replace here.
+  copy_labels(draw %>% select(Q67)) %>% #Restore the original labels for the updated variable
+  set_labels(Q67, labels = c(`Refused` = -7, `1` = 1, `2` = 2, `3` = 3, `4+` = 4)) #Add value labels back in, including the missing value label
+
+
+#Q68 What is the approximate annual income of you and your partners?
+d37 <- d36 %>% 
+  mutate(Q68 = recode(.$Q68, `6` = 5, `7` = 6, `9` = -7)) %>%    #Recode to more logical values
+  replace_na(Q68, value = -7) %>% #No skip logic, all NAs are refused. Replace here.
+  copy_labels(draw %>% select(Q68)) %>% #Restore the original labels for the updated variable
+  set_labels(Q68, labels = c(`Refused` = -7, `Less than $25,000` = 1, `$25,000 - $49,999` = 2, `$50,000 - $74,999` = 3, `$75,000 - $99,999` = 4, `$100,000 - $124,999` = 5, `Greater than $125,000` = 6)) #Add value labels back in, including the missing value label
+
+
+#Q69 How would you describe your general state of health?
+d38 <- d37 %>% 
+  replace_na(Q69, value = -7) %>%  #Convert the NAs to "Refused" (-7)
+  mutate(Q69 = recode(.$Q69, `6` = -7)) %>%    #Recode prefer not to answer to "Refused"
+  copy_labels(draw %>% select(Q69)) %>% #Restore the original labels for the updated variable
+  set_labels(Q69, labels = c(`Refused or Prefer not to answer` = -7, `Poor` = 1, `Fair` = 2, `Good` = 3, `Very Good` = 4, `Excellent` = 5)) #Add value labels back in, including the missing value label
+
+
+#Q70 Do you have any physical limitation that make riding a bicycle or an e-scooter difficult for you?
+d39 <- d38 %>% 
+  replace_na(Q70, value = -7) %>% #No skip logic, all NAs are refused. Replace here.
+  mutate(Q70 = recode(.$Q70, `1` = 1, `2` = 0, `3` = -7)) %>%   #Code to 0s and 1s (originall yes was 1 and no was 2)
+  copy_labels(draw %>% select(Q70)) %>% #Restore the original labels for the updated variable
+  mutate(Q70 = set_labels(.$Q70, labels = c(`Refused or Prefer not to answer` = -7, `No` = 0, `Yes` = 1))) #Add the value labels back in, including the missing value label
+
+df <- d39
+```
+
+``` {r Export the full cleaned data for SPSS}
+
+write_spss(df, "cleandata/full_clean_032320.sav")
+
+```
+
+``` {r Export the respondent information data only for SPSS}
+#Strip out the stated preference experiment info
+dr <- df %>% 
+  select(-Q38:-Q61)
+
+write_spss(dr, "cleandata/respondent_clean_032320.sav")
+```
+
+``` {r Export the stated preference experiment data only and attach response ID}
+#Strip out just the ResponseID and stated preference experiment info
+ds <- df %>% 
+  select(ResponseId, Q38:Q61)
+
+#Load in the experiment design
+load(file = "../SurveyDesign/key_021020.RData")
+
+#Print the design
+print(key)
+
+#Now, rearrange the survey experiment
+ds2 <- ds %>% 
+  pivot_longer(-ResponseId, names_to = "card", values_to = "response") %>% #Pivot to long form
+  filter(response != -1) %>%  #Get rid of Appropriate skips (this means that they didn't have that block)
+  mutate(card = recode(card, `Q38` = 1, `Q39` = 2, `Q40` = 3, `Q41` = 4, `Q42` = 5, `Q43` = 6, `Q44` = 7, `Q45` = 8, `Q46` = 9, `Q47` = 10, `Q48` = 11, `Q49` = 12, `Q50` = 13, `Q51` = 14, `Q52` = 15, `Q53` = 16, `Q54` = 17, `Q55` = 18, `Q56` = 19, `Q57` = 20, `Q58` = 21, `Q59`= 22, `Q60` = 23, `Q61` = 24)) %>%  #Recode to card number in preparation for joining
+  left_join(key, by = "card") %>% #Join the design information to the response information
+  set_variable_labels(card = "Unique Card number", response = "Mode Selection", vers = "Block", task = "Within block card number", car_walk_time = "Car Walk Time", car_drive_time = "Car Drive Time", car_parking_cost = "Car Parking Cost", bike_ride_time = "Bike Riding Time", em_walk_time = "E-Scooter + MAX Walk Time", em_scoot_time = "E-Scooter Ride Time", em_ride_time = "MAX Ride Time", em_scoot_cost = "E-Scooter Ride Cost", em_ticket_cost = "MAX ticket cost") %>%   #Add in the variable labels for SPSS
+  add_labels(response, labels = c(`Refused` = -7, `Appropriate skip` = -1, `Personal Car` = 1, `Bike` = 2, `E-Scooter + MAX` = 3))
+
+#Write a clean SPSS file
+write_spss(ds2, "cleandata/statedprefexp_clean_032320.sav")
+
+```
+
+
+``` {r Export csv of location data for geocoding}
+dl <- df %>% 
+  select(ResponseId, Q71, Q7_4) %>% #Select just response ID and crossroads
+  filter(Q71 != "") #Filter for responses that are not empty
+
+nrow(dl)
+
+write.csv(dl, "cleandata/crossroads_032320.csv")
+
+```
